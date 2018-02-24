@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Artisten",
+        "img": null,
+        "show": false
+    },
+    {
+        "name": "GöteborgsOperan",
+        "img": null,
+        "show": true
+    },
+    {
+        "name": "Göteborgs konserthus",
+        "img": null,
+        "show": true
+    },
+    {
+        "name": "Världskulturmuseet",
+        "img": null,
+        "show": true
+    },
+    {
+        "name": "Göteborgs konserthus",
+        "img": null,
+        "show": true
+    },
+    {
+        "name": "Stora teatern",
+        "img": null,
+        "show": false
+    }
+]

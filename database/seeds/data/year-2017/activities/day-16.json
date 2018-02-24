@@ -1,0 +1,58 @@
+[
+    {
+        "start": "10:00",
+        "end": "12:00",
+        "name": "Mästarklass",
+        "description": "med Mikael Kanarva",
+        "location": "Göteborgs konserthus",
+        "room": null
+    },
+    {
+        "start": "12:00",
+        "end": "12:45",
+        "name": "Invigning av Festivalen och PLAY ME",
+        "description": null,
+        "location": "Världskulturmuseet",
+        "room": null
+    },
+    {
+        "start": "13:00",
+        "end": "14:00",
+        "name": "Konsertserie Unga och Lovande Pianister del 1",
+        "description": "Daumants Liepins<br />Filip Michalak",
+        "location": "Världskulturmuseet",
+        "room": null
+    },
+    {
+        "start": "14:30",
+        "end": "15:30",
+        "name": "Konsert: Pianosällskapet i Väst med unga pianister",
+        "description": null,
+        "location": "Världskulturmuseet",
+        "room": null
+    },
+    {
+        "start": "14:30",
+        "end": "17:00",
+        "name": "Mästarklass",
+        "description": "med Mikael Kanarva",
+        "location": "Göteborgs konserthus",
+        "room": null
+    },
+    {
+        "start": "17:30",
+        "end": "17:45",
+        "name": "Konsertintroduktion av Maurizio Morettis konsertprogram",
+        "description": "med Henrik Kilhamn",
+        "location": "Världskulturmuseet",
+        "room": null
+    },
+    {
+        "start": "18:00",
+        "end": "19:00",
+        "name": "Konsert med Maurizio Moretti",
+        "description": null,
+        "location": "Världskulturmuseet",
+        "room": null
+    }
+]

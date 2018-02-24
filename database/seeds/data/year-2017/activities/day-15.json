@@ -1,0 +1,34 @@
+[
+    {
+        "start": "10:00",
+        "end": "12:00",
+        "name": "Mästarklass",
+        "description": "med Beata Anselmsson",
+        "location": "Göteborgs konserthus",
+        "room": "Neeme Järvi-salen"
+    },
+    {
+        "start": "10:00",
+        "end": "12:00",
+        "name": "Mästarklass",
+        "description": "med Bernt Wilhelmsson",
+        "location": "Göteborgs konserthus",
+        "room": "Viktor Rydbergssalen"
+    },
+    {
+        "start": "13:00",
+        "end": "16:00",
+        "name": "Mästarklass",
+        "description": "med Beata Anselmsson",
+        "location": "Göteborgs konserthus",
+        "room": "Neeme Järvi-salen"
+    },
+    {
+        "start": "13:00",
+        "end": "16:00",
+        "name": "Mästarklass",
+        "description": "med Thomas Rydfeldt",
+        "location": "Göteborgs konserthus",
+        "room": "Viktor Rydbergssalen"
+    }
+]

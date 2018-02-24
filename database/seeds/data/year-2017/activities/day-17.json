@@ -1,0 +1,42 @@
+[
+    {
+        "start": "10:00",
+        "end": "12:00",
+        "name": "Mästarklass för avancerade",
+        "description": "med Maurizio Moretti",
+        "location": "Göteborgs konserthus",
+        "room": null
+    },
+    {
+        "start": "13:00",
+        "end": "14:00",
+        "name": "Konsertserie Unga och Lovande Pianister del 2",
+        "description": "Hannes Rudenstam<br />Vilma Johnsson<br />Carl Christiansson<br />Valentine Bouchaud<br />Angelo Lundström ( violin )",
+        "location": "Världskulturmuseet",
+        "room": null
+    },
+    {
+        "start": "14:30",
+        "end": "17:00",
+        "name": "Mästarklass för avancerade",
+        "description": "med Maurizio Moretti",
+        "location": "Göteborgs konserthus",
+        "room": null
+    },
+    {
+        "start": "17:30",
+        "end": "17:45",
+        "name": "Möt Pianisten: Peter Jablonski",
+        "description": "Gustaf Edlund samtalar med Peter Jablonski",
+        "location": "Världskulturmuseet",
+        "room": null
+    },
+    {
+        "start": "18:00",
+        "end": "19:00",
+        "name": "Konsert med Peter Jablonski",
+        "description": "med Mikael Kanarva",
+        "location": "Världskulturmuseet",
+        "room": null
+    }
+]

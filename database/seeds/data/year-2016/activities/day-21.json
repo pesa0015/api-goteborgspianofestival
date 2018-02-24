@@ -1,0 +1,18 @@
+[
+    {
+        "start": "11:30",
+        "end": "13:30",
+        "name": "Mästarklass",
+        "description": "med Robert Wells",
+        "location": "Artisten",
+        "room": "C602"
+    },
+    {
+        "start": "15:00",
+        "end": "17:00",
+        "name": "Finalkonsert",
+        "description": "med blandade artister bl. a. Robert Wells",
+        "location": "GöteborgsOperan",
+        "room": "foajé"
+    }
+]

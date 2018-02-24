@@ -1,0 +1,42 @@
+[
+    {
+        "start": "10:00",
+        "end": "12:00",
+        "name": "Mästarklass för avancerade",
+        "description": "med Peter Jablonski",
+        "location": "Göteborgs konserthus",
+        "room": "Viktor Rydbergssalen"
+    },
+    {
+        "start": "13:00",
+        "end": "14:00",
+        "name": "Konsertserie Unga och Lovande Pianister del 2",
+        "description": "Julia Isaksson<br />Viktor Yuandong Mattsson",
+        "location": "Världskulturmuseet",
+        "room": null
+    },
+    {
+        "start": "14:30",
+        "end": "15:30",
+        "name": "Kammarmusikkonsert",
+        "description": "Piano möter stråkar",
+        "location": "Göteborgs konserthus",
+        "room": null
+    },
+    {
+        "start": "16:30",
+        "end": "17:00",
+        "name": "Möt jazzpianisten: Mattias Nilsson",
+        "description": "Ha-Young Sul samtalar med Mattias Nilsson",
+        "location": "Stora teatern",
+        "room": "Kristallfoajén"
+    },
+    {
+        "start": "17:00",
+        "end": "18:00",
+        "name": "After Work-konsert",
+        "description": "Klassiskt möter jazz!<br />med Mattias Nilsson",
+        "location": "Stora teatern",
+        "room": "Kristallfoajén"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Ohlinsalen",
+        "location": "Artisten"
+    },
+    {
+        "name": "A503",
+        "location": "Artisten"
+    },
+    {
+        "name": "A502",
+        "location": "Artisten"
+    },
+    {
+        "name": "C602",
+        "location": "Artisten"
+    },
+    {
+        "name": "Trappan",
+        "location": "Världskulturmuseet"
+    },
+    {
+        "name": "foajé",
+        "location": "GöteborgsOperan"
+    },
+    {
+        "name": "Lilla scenen",
+        "location": "GöteborgsOperan"
+    },
+    {
+        "name": "Neeme Järvi-salen",
+        "location": "Göteborgs konserthus"
+    },
+    {
+        "name": "Viktor Rydbergssalen",
+        "location": "Göteborgs konserthus"
+    },
+    {
+        "name": "Kristallfoajén",
+        "location": "Stora teatern"
+    }
+]

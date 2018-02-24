@@ -1,0 +1,26 @@
+[
+    {
+        "date": 15,
+        "weekDay": "tues"
+    },
+    {
+        "date": 16,
+        "weekDay": "wed"
+    },
+    {
+        "date": 17,
+        "weekDay": "thu"
+    },
+    {
+        "date": 18,
+        "weekDay": "fri"
+    },
+    {
+        "date": 19,
+        "weekDay": "sat"
+    },
+    {
+        "date": 20,
+        "weekDay": "sun"
+    }
+]

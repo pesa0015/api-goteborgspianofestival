@@ -1,0 +1,34 @@
+[
+    {
+        "start": "10:00",
+        "end": "12:00",
+        "name": "Mästarklass",
+        "description": "med Natalia Kazmirovskaia",
+        "location": "Artisten",
+        "room": "Ohlinsalen"
+    },
+    {
+        "start": "13:00",
+        "end": "14:00",
+        "name": "Sagornas Musik",
+        "description": "Ha-Young Sul och Maria Rostotsky",
+        "location": "Artisten",
+        "room": "Ohlinsalen"
+    },
+    {
+        "start": "14:00",
+        "end": "15:30",
+        "name": "Unga och Lovande pianister",
+        "description": "Filip Michalak<br />Ernst Erlanson<br />Daumants Liepins",
+        "location": "Världskulturmuseet",
+        "room": "Trappan"
+    },
+    {
+        "start": "14:00",
+        "end": "17:00",
+        "name": "Mästarklass",
+        "description": "med Natalia Kazmirovskaia",
+        "location": "Artisten",
+        "room": "Ohlinsalen"
+    }
+]

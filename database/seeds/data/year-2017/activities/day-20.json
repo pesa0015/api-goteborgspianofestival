@@ -1,0 +1,26 @@
+[
+    {
+        "start": "11:00",
+        "end": "13:00",
+        "name": "Konsert med barn och unga",
+        "description": null,
+        "location": "Världskulturmuseet",
+        "room": null
+    },
+    {
+        "start": "14:00",
+        "end": "15:00",
+        "name": "Musikquiz",
+        "description": "med Lena Zirk",
+        "location": "Världskulturmuseet",
+        "room": null
+    },
+    {
+        "start": "15:30",
+        "end": "16:30",
+        "name": "Konsert med äldre ungdomar",
+        "description": "med Robert Wells och David Carbe",
+        "location": "Världskulturmuseet",
+        "room": null
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "start": "10:00",
+        "end": "12:00",
+        "name": "Mästarklass",
+        "description": "med Thomas Rydfeldt",
+        "location": "Artisten",
+        "room": "Ohlinsalen"
+    },
+    {
+        "start": "10:00",
+        "end": "12:00",
+        "name": "Mästarklass",
+        "description": "med Maria Rostotsky",
+        "location": "Artisten",
+        "room": "A503"
+    },
+    {
+        "start": "13:00",
+        "end": "15:00",
+        "name": "Music Mind Games",
+        "description": "med Magdalena Prahl",
+        "location": "Artisten",
+        "room": "A602"
+    },
+    {
+        "start": "15:00",
+        "end": "17:00",
+        "name": "Mästarklass",
+        "description": "med Thomas Rydfeldt",
+        "location": "Artisten",
+        "room": "Ohlinsalen"
+    },
+    {
+        "start": "15:00",
+        "end": "17:00",
+        "name": "Mästarklass",
+        "description": "med Maria Rostotsky",
+        "location": "Artisten",
+        "room": "A503"
+    }
+]

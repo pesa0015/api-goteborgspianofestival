@@ -1,0 +1,18 @@
+[
+    {
+        "start": "13:00",
+        "end": "14:00",
+        "name": "Lunchkonsert Unga och lovande Pianister spelar",
+        "description": "Rubén Russo<br />Novak Pavlicic<br />Julia Isaksson",
+        "location": "Världskulturmuseet",
+        "room": "Trappan"
+    },
+    {
+        "start": "14:30",
+        "end": "15:30",
+        "name": "Föreläsning",
+        "description": "med Thomas Rydfeldt",
+        "location": "Världskulturmuseet",
+        "room": "Trappan"
+    }
+]
