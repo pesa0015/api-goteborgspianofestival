@@ -8,13 +8,16 @@ use App\Year;
 class YearTransformer extends Fractal\TransformerAbstract
 {
     protected $availableIncludes = [
-        'days'
+        'days', 'locations'
     ];
 
     public function transform(Year $year)
     {
         return [
-            'year'  => $year->year
+            'year'  => $year->year,
+            'from'  => $year->days->min('date'),
+            'to'    => $year->days->max('date'),
+            'month' => \App\Day::MONTH
         ];
     }
 
@@ -28,5 +31,17 @@ class YearTransformer extends Fractal\TransformerAbstract
         $days = $year->days;
 
         return $this->collection($days, new DayTransformer);
+    }
+
+    /**
+     * Include locations
+     *
+     * @return League\Fractal\CollectionResource
+     */
+    public function includeLocations(Year $year)
+    {
+        $locations = $year->locations;
+
+        return $this->collection($locations, new LocationTransformer);
     }
 }

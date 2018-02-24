@@ -19,4 +19,9 @@ class Location extends Model
     {
         return $this->hasMany('App\Room');
     }
+
+    public function years()
+    {
+        return $this->belongsToMany('App\Year')->withTimestamps();
+    }
 }

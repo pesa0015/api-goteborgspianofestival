@@ -20,4 +20,13 @@ class YearsController extends CustomController
 
         return response()->json($years, 200);
     }
+
+    public function current()
+    {
+        $yearRaw = Year::current();
+
+        $year = $this->transform->item($yearRaw, Year::getTransformer(), ['locations']);
+
+        return response()->json($year, 200);
+    }
 }

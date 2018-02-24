@@ -11,5 +11,6 @@
 |
 */
 
+Route::get('years/current', 'YearsController@current');
 Route::resource('years', 'YearsController', ['only' => ['index']]);
 Route::resource('days', 'DaysController', ['only' => ['index']]);

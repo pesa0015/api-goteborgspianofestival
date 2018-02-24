@@ -22,4 +22,29 @@ class YearsTest extends TestCase
             ]
         ]);
     }
+
+    /**
+     * @group getCurrentYear
+     *
+     */
+    public function testGetCurrentYear()
+    {
+        $response = $this->get('/years/current');
+
+        $response->assertStatus(200);
+        $response->assertJsonStructure([
+            'year',
+            'from',
+            'to',
+            'month',
+            'locations' => [
+                'data' => [
+                    '*' => [
+                        'name',
+                        'img'
+                    ]
+                ]
+            ]
+        ]);
+    }
 }

@@ -2,31 +2,57 @@
     {
         "name": "Artisten",
         "img": null,
-        "show": false
+        "show": false,
+        "years": [
+            {
+                "year": "2016"
+            }
+        ]
     },
     {
         "name": "GöteborgsOperan",
         "img": null,
-        "show": true
+        "show": true,
+        "years": [
+            {
+                "year": "2016"
+            },
+            {
+                "year": "2017"
+            }
+        ]
     },
     {
         "name": "Göteborgs konserthus",
         "img": null,
-        "show": true
+        "show": true,
+        "years": [
+            {
+                "year": "2017"
+            }
+        ]
     },
     {
         "name": "Världskulturmuseet",
         "img": null,
-        "show": true
-    },
-    {
-        "name": "Göteborgs konserthus",
-        "img": null,
-        "show": true
+        "show": true,
+        "years": [
+            {
+                "year": "2016"
+            },
+            {
+                "year": "2017"
+            }
+        ]
     },
     {
         "name": "Stora teatern",
         "img": null,
-        "show": false
+        "show": false,
+        "years": [
+            {
+                "year": "2016"
+            }
+        ]
     }
 ]

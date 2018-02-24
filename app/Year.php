@@ -25,8 +25,18 @@ class Year extends Model
         return $this->hasMany('App\Day');
     }
 
+    public function locations()
+    {
+        return $this->belongsToMany('App\Location')->withTimestamps();
+    }
+
     public static function activeYears()
     {
         return self::where('active', true);
+    }
+
+    public static function current()
+    {
+        return self::get()->last();
     }
 }

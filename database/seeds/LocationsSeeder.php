@@ -1,6 +1,7 @@
 <?php
 
 use App\Location;
+use App\Year;
 
 class LocationsSeeder extends DatabaseSeeder
 {
@@ -19,7 +20,17 @@ class LocationsSeeder extends DatabaseSeeder
     private function seedLocations($locations)
     {
         foreach ($locations as $location) {
-            Location::create((array)$location);
+            $years = $location->years;
+
+            unset($location->years);
+
+            $seededLocation = Location::create((array)$location);
+
+            foreach ($years as $locationYear) {
+                $year = Year::where('year', $locationYear->year)->first();
+
+                $year->locations()->save($seededLocation);
+            }
         }
     }
 }
