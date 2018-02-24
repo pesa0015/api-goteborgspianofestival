@@ -13,4 +13,5 @@ jobs:
   include:
     - stage: test
       script: sh psr.sh
+    -
       script: vendor/bin/phpunit --coverage-text
