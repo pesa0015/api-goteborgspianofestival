@@ -10,7 +10,7 @@ before_script:
  - php artisan key:generate
 
 jobs:
-  includes:
+  include:
     - stage: test
       script: sh psr.sh
       script: vendor/bin/phpunit --coverage-text
