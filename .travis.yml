@@ -1,0 +1,16 @@
+language: php
+
+php: '7.1'
+
+sudo: false
+
+before_script:
+ - cp .env.testing .env
+ - composer install --dev --prefer-source --no-interaction
+ - php artisan key:generate
+
+jobs:
+  includes:
+    - stage: test
+      script: sh psr.sh
+      script: vendor/bin/phpunit --coverage-text
