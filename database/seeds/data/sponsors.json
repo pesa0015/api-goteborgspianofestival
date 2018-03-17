@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Musikarrangörer i Samverkan",
+        "slug": "musikarrangorer-i-samverkan",
+        "img": null,
+        "link": null,
+        "active": true
+    },
+    {
+        "name": "Göteborgs Stad kulturstöd",
+        "slug": "goteborgs-stad-kulturstod",
+        "img": null,
+        "link": null,
+        "active": true
+    },
+    {
+        "name": "Kulturrådet genom Kammarmusikförbundet",
+        "slug": "kulturradet-genom-kammarmusikforbundet",
+        "img": null,
+        "link": null,
+        "active": true
+    },
+    {
+        "name": null,
+        "slug": "kulturens",
+        "img": "https://goteborgspianofestival.com/wp-content/uploads/2017/07/kulturens.png",
+        "link": "https://www.kulturens.se/",
+        "active": true
+    },
+    {
+        "name": null,
+        "slug": "kulturskolan",
+        "img": "https://goteborgspianofestival.com/wp-content/uploads/2017/07/kulturskolan.png",
+        "link": "http://goteborg.se/wps/portal/enhetssida/kulturskolan/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziTYzcDQy9TAy93QPMDQ0cQ41dPR2N3QwMzU30wwkpiAJKG-AAjgb6XvpR6Tn5SRCrHPOSjC3S9aOKUtNSi1KL9EqLgMIZJSUFxVaqBqoG5eXleun5-ek5qXrFqaoG2HRk5BeX6EegKNQvyI2o8kkNdwQA3wsNag!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/",
+        "active": true
+    },
+    {
+        "name": null,
+        "slug": "svanstrom",
+        "img": "https://goteborgspianofestival.com/wp-content/uploads/2017/07/Svanstrom-logo.png",
+        "link": "http://www.svanstrom.se/",
+        "active": true
+    },
+    {
+        "name": "Helga Ax:son Johnsons Stiftelse",
+        "slug": "helga-axson",
+        "img": null,
+        "link": "http://haxsonj.se/www/",
+        "active": true
+    },
+    {
+        "name": null,
+        "slug": "casio",
+        "img": "https://goteborgspianofestival.com/wp-content/uploads/2017/07/casio.png",
+        "link": "http://www.grand-hybrid.com/se/",
+        "active": true
+    },
+    {
+        "name": null,
+        "slug": "tornrosa",
+        "img": "https://goteborgspianofestival.com/wp-content/uploads/2017/07/tornrosa.png",
+        "link": null,
+        "active": true
+    }
+]
