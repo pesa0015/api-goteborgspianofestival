@@ -34,9 +34,4 @@ class Year extends Model
     {
         return self::where('active', true);
     }
-
-    public static function current()
-    {
-        return self::get()->last();
-    }
 }

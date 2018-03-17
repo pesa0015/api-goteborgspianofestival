@@ -23,7 +23,7 @@ class YearsController extends CustomController
 
     public function current()
     {
-        $yearRaw = Year::current();
+        $yearRaw = Year::with('locations')->get()->last();
 
         $year = $this->transform->item($yearRaw, Year::getTransformer(), ['locations']);
 
