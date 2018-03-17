@@ -40,7 +40,9 @@ class YearTransformer extends Fractal\TransformerAbstract
      */
     public function includeLocations(Year $year)
     {
-        $locations = $year->locations;
+        $locations = !$year->locations->isEmpty()
+        ? $year->locations
+        : $year->findOrFail($year->id - 1)->locations()->get();
 
         return $this->collection($locations, new LocationTransformer);
     }
