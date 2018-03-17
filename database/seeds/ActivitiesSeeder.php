@@ -19,6 +19,11 @@ class ActivitiesSeeder extends DatabaseSeeder
         foreach ($days as $day) {
             $activities = $this->getData('year-' . $day->year->year . '/activities/day-' . $day->date . '.json');
 
+            if (is_null($activities)) {
+                $this->command->warn($day->date . ' ' . Day::MONTH . ' ' . $day->year->year . ' have no activities');
+                continue;
+            }
+
             $this->seedActivities($activities, $day);
         }
     }
