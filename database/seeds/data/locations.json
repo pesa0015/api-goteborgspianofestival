@@ -1,7 +1,7 @@
 [
     {
         "name": "Artisten",
-        "img": null,
+        "img": "https://goteborgspianofestival.com/wp-content/themes/goteborgspianofestival/img/slider/artisten.jpg",
         "show": false,
         "years": [
             {
@@ -11,7 +11,7 @@
     },
     {
         "name": "GöteborgsOperan",
-        "img": null,
+        "img": "https://goteborgspianofestival.com/wp-content/themes/goteborgspianofestival/img/slider/GoteborgsOperan.png",
         "show": true,
         "years": [
             {
@@ -24,7 +24,7 @@
     },
     {
         "name": "Göteborgs konserthus",
-        "img": null,
+        "img": "https://goteborgspianofestival.com/wp-content/themes/goteborgspianofestival/img/slider/varldskulturmuseet.png",
         "show": true,
         "years": [
             {
@@ -34,7 +34,7 @@
     },
     {
         "name": "Världskulturmuseet",
-        "img": null,
+        "img": "https://goteborgspianofestival.com/wp-content/themes/goteborgspianofestival/img/slider/varldskulturmuseet.png",
         "show": true,
         "years": [
             {
