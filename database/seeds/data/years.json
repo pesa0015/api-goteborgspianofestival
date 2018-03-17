@@ -6,5 +6,9 @@
     {
         "year": "2017",
         "active": true
+    },
+    {
+        "year": "2018",
+        "active": false
     }
 ]
