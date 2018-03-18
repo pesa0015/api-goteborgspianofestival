@@ -17,7 +17,7 @@ class Year extends Model
 
     public static function getIncludes()
     {
-        return ['days'];
+        return ['days', 'activities'];
     }
 
     public function days()

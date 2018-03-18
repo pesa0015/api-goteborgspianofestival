@@ -18,7 +18,27 @@ class YearsTest extends TestCase
         $response->assertStatus(200);
         $response->assertJsonStructure([
             '*' => [
-                'year'
+                'year',
+                'days' => [
+                    'data' => [
+                        '*' => [
+                            'date',
+                            'month',
+                            'activities' => [
+                                'data' => [
+                                    '*' => [
+                                        'start',
+                                        'end',
+                                        'name',
+                                        'description',
+                                        'location',
+                                        'room'
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
             ]
         ]);
     }

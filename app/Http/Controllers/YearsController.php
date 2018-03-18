@@ -16,7 +16,7 @@ class YearsController extends CustomController
     {
         $yearsRaw = Year::activeYears()->get();
 
-        $years = $this->transform->collection($yearsRaw, Year::getTransformer());
+        $years = $this->transform->collection($yearsRaw, Year::getTransformer(), Year::getIncludes());
 
         return response()->json($years, 200);
     }
