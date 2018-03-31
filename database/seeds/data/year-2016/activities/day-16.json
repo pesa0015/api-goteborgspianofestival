@@ -2,16 +2,64 @@
     {
         "start": "10:00",
         "end": "12:00",
-        "name": "Mästarklass",
-        "description": "med Thomas Rydfeldt",
+        "name": {
+            "sv": "Mästarklass",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Masterclass"
+                    },
+                    {
+                        "sv": "Mästarklass"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Thomas Rydfeldt",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Thomas Rydfeldt"
+                    },
+                    {
+                        "sv": "med Thomas Rydfeldt"
+                    }
+                ]
+            }
+        },
         "location": "Artisten",
         "room": "Ohlinsalen"
     },
     {
         "start": "10:00",
         "end": "12:00",
-        "name": "Mästarklass",
-        "description": "med Maria Rostotsky",
+        "name": {
+            "sv": "Mästarklass",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Masterclass"
+                    },
+                    {
+                        "sv": "Mästarklass"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Maria Rostotsky",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Maria Rostotsky"
+                    },
+                    {
+                        "sv": "med Maria Rostotsky"
+                    }
+                ]
+            }
+        },
         "location": "Artisten",
         "room": "A503"
     },
@@ -19,23 +67,83 @@
         "start": "13:00",
         "end": "15:00",
         "name": "Music Mind Games",
-        "description": "med Magdalena Prahl",
+        "description": {
+            "sv": "med Magdalena Prahl",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Magdalena Prahl"
+                    },
+                    {
+                        "sv": "med Magdalena Prahl"
+                    }
+                ]
+            }
+        },
         "location": "Artisten",
         "room": "A602"
     },
     {
         "start": "15:00",
         "end": "17:00",
-        "name": "Mästarklass",
-        "description": "med Thomas Rydfeldt",
+        "name": {
+            "sv": "Mästarklass",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Masterclass"
+                    },
+                    {
+                        "sv": "Mästarklass"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Thomas Rydfeldt",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Thomas Rydfeldt"
+                    },
+                    {
+                        "sv": "med Thomas Rydfeldt"
+                    }
+                ]
+            }
+        },
         "location": "Artisten",
         "room": "Ohlinsalen"
     },
     {
         "start": "15:00",
         "end": "17:00",
-        "name": "Mästarklass",
-        "description": "med Maria Rostotsky",
+        "name": {
+            "sv": "Mästarklass",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Masterclass"
+                    },
+                    {
+                        "sv": "Mästarklass"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Maria Rostotsky",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Maria Rostotsky"
+                    },
+                    {
+                        "sv": "med Maria Rostotsky"
+                    }
+                ]
+            }
+        },
         "location": "Artisten",
         "room": "A503"
     }

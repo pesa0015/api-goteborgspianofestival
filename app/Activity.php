@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Activity extends Model
+class Activity extends BaseModel
 {
     protected $fillable = [
         'start',
@@ -29,5 +29,10 @@ class Activity extends Model
     public function day()
     {
         return $this->belongsTo('App\Day');
+    }
+
+    public function translations()
+    {
+        return $this->morphMany('App\Translateable', 'translateable');
     }
 }

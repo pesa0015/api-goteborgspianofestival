@@ -2,8 +2,32 @@
     {
         "start": "10:00",
         "end": "12:00",
-        "name": "Mästarklass",
-        "description": "med Natalia Kazmirovskaia",
+        "name": {
+            "sv": "Mästarklass",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Masterclass"
+                    },
+                    {
+                        "sv": "Mästarklass"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Natalia Kazmirovskaia",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Natalia Kazmirovskaia"
+                    },
+                    {
+                        "sv": "med Natalia Kazmirovskaia"
+                    }
+                ]
+            }
+        },
         "location": "Artisten",
         "room": "Ohlinsalen"
     },
@@ -11,7 +35,19 @@
         "start": "13:00",
         "end": "14:00",
         "name": "Sagornas Musik",
-        "description": "Ha-Young Sul och Maria Rostotsky",
+        "description": {
+            "sv": "Ha-Young Sul och Maria Rostotsky",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Ha-Young Sul and Maria Rostotsky"
+                    },
+                    {
+                        "sv": "Ha-Young Sul och Maria Rostotsky"
+                    }
+                ]
+            }
+        },
         "location": "Artisten",
         "room": "Ohlinsalen"
     },
@@ -26,8 +62,32 @@
     {
         "start": "14:00",
         "end": "17:00",
-        "name": "Mästarklass",
-        "description": "med Natalia Kazmirovskaia",
+        "name": {
+            "sv": "Mästarklass",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Masterclass"
+                    },
+                    {
+                        "sv": "Mästarklass"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Natalia Kazmirovskaia",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Natalia Kazmirovskaia"
+                    },
+                    {
+                        "sv": "med Natalia Kazmirovskaia"
+                    }
+                ]
+            }
+        },
         "location": "Artisten",
         "room": "Ohlinsalen"
     }

@@ -12,8 +12,8 @@ class ActivityTransformer extends Fractal\TransformerAbstract
         return [
             'start'       => $activity->start,
             'end'         => $activity->end,
-            'name'        => $activity->name,
-            'description' => $activity->description,
+            'name'        => $activity->t('name'),
+            'description' => $activity->t('description'),
             'location'    => $activity->location->name,
             'room'        => $activity->room ? $activity->room->name : null
         ];

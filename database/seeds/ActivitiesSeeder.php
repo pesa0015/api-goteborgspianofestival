@@ -36,7 +36,14 @@ class ActivitiesSeeder extends DatabaseSeeder
             unset($activity->location);
             unset($activity->room);
 
-            $seededActivity = Activity::create((array)$activity);
+            $seededActivity = Activity::create([
+                'start'       => $activity->start,
+                'end'         => $activity->end,
+                'name'        => isset($activity->name->sv) ? $activity->name->sv : $activity->name,
+                'description' => isset($activity->description->sv) ? $activity->description->sv : $activity->description,
+            ]);
+
+            $this->translate($seededActivity, $activity);
 
             $location = Location::where('name', $originalActivity->location)->first();
 

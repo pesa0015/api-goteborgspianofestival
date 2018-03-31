@@ -44,4 +44,46 @@ class DatabaseSeeder extends Seeder
 
         return $json;
     }
+
+    protected function translate($model, $jsonData)
+    {
+        $translations = $this->keyExists((array)$jsonData);
+
+        if (!empty($translations)) {
+            $class = get_class($model);
+            foreach ($translations as $translate) {
+                $field = $translate['key'];
+
+                foreach ($translate['lang'] as $translation) {
+                    $translate = (array)$translation;
+                    
+                    $model->translations()->create([
+                        'translateable_id'   => $model->id,
+                        'translateable_type' => $class,
+                        'key'                => $field,
+                        'language'           => key($translate),
+                        'translation'        => array_shift($translate)
+                    ]);
+                }
+            }
+        }
+    }
+
+    private function keyExists(array $arr)
+    {
+        $translations = [];
+
+        foreach ($arr as $key => $element) {
+            if (isset($element->translations)) {
+                $translate = [
+                    'key'  => $key,
+                    'lang' => (array)$element->translations->lang
+                ];
+
+                array_push($translations, $translate);
+            }
+        }
+
+        return $translations;
+    }
 }

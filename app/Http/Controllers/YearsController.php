@@ -13,7 +13,15 @@ class YearsController extends CustomController
      */
     public function index()
     {
-        $yearsRaw = Year::activeYears()->get();
+        $yearsRaw = Year::activeYears()->with([
+            'days',
+            'days.activities',
+            'days.activities.location',
+            'days.activities.room',
+            'days.activities.translations' => function ($query) {
+                return $query->ofLang();
+            }
+        ])->get();
 
         $years = $this->transform->collection($yearsRaw, Year::getTransformer(), Year::getIncludes());
 
