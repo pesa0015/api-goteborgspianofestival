@@ -15,7 +15,7 @@ class Locale
      */
     public function handle($request, Closure $next)
     {
-        if (($request->cookie('locale'))) {
+        if ($request->cookie('locale')) {
             $lang = $request->cookie('locale');
             \App::setLocale($lang);
 
