@@ -24,17 +24,30 @@ class ActivitiesTest extends TestCase
         $response = $this->get('/years');
 
         $response->assertStatus(200);
+
+        // Assert swedish
         $response->assertJsonFragment([
             'name' => 'Mästarklass'
         ]);
+        $response->assertCookieMissing('locale');
 
-        \App::setLocale('en');
+        $response = $this->call('GET', '/years', [], ['locale' => 'en']);
+
+        $response->assertStatus(200);
+
+        // Assert english
+        $response->assertJsonFragment([
+            'name' => 'Masterclass'
+        ]);
+        $response->assertCookie('locale');
 
         $response = $this->get('/years');
 
         $response->assertStatus(200);
+
+        // Assert swedish
         $response->assertJsonFragment([
-            'name' => 'Masterclass'
+            'name' => 'Mästarklass'
         ]);
     }
 }
