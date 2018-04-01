@@ -21,6 +21,13 @@ class ActivitiesTest extends TestCase
             'translateable_type' => get_class($activity)
         ]);
 
+        $response = $this->get('/years');
+
+        $response->assertStatus(200);
+        $response->assertJsonFragment([
+            'name' => 'Mästarklass'
+        ]);
+
         \App::setLocale('en');
 
         $response = $this->get('/years');
@@ -28,15 +35,6 @@ class ActivitiesTest extends TestCase
         $response->assertStatus(200);
         $response->assertJsonFragment([
             'name' => 'Masterclass'
-        ]);
-
-        \App::setLocale('sv');
-
-        $response = $this->get('/years');
-
-        $response->assertStatus(200);
-        $response->assertJsonFragment([
-            'name' => 'Mästarklass'
         ]);
     }
 }
