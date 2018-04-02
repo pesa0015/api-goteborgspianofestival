@@ -15,11 +15,11 @@ class Locale
      */
     public function handle($request, Closure $next)
     {
-        if (!$request->cookie('locale') && !$request->has('locale')) {
+        if (!$request->header('locale')) {
             return $next($request);
         }
         
-        $lang = $request->cookie('locale') ? $request->cookie('locale') : $request->locale;
+        $lang = $request->header('locale');
 
         if (!in_array($lang, ['en', 'sv'])) {
             return $next($request);
@@ -27,8 +27,6 @@ class Locale
 
         \App::setLocale($lang);
 
-        $response = $next($request);
-
-        return $response->withCookie(cookie('locale', $lang, 15));
+        return $next($request);
     }
 }
