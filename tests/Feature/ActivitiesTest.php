@@ -49,5 +49,14 @@ class ActivitiesTest extends TestCase
         $response->assertJsonFragment([
             'name' => 'Mästarklass'
         ]);
+
+        $response = $this->get('/years?locale=en');
+
+        $response->assertStatus(200);
+
+        // Assert english
+        $response->assertJsonFragment([
+            'name' => 'Masterclass'
+        ]);
     }
 }
