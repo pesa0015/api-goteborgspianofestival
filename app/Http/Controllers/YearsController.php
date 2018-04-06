@@ -32,7 +32,7 @@ class YearsController extends CustomController
     {
         $yearRaw = Year::with('locations')->get()->last();
 
-        $year = $this->transform->item($yearRaw, Year::getTransformer(), ['locations']);
+        $year = $this->transform->item($yearRaw, new \App\Http\Transformer\CurrentYearTransformer);
 
         return response()->json($year, 200);
     }

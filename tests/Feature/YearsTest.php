@@ -66,5 +66,6 @@ class YearsTest extends TestCase
                 ]
             ]
         ]);
+        $this->assertInternalType('int', $response->getData()->countdown);
     }
 }
