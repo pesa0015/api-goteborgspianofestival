@@ -22,8 +22,8 @@ class Day extends Model
         return $this->belongsTo('App\Year');
     }
 
-    public function activities()
+    public function events()
     {
-        return $this->hasMany('App\Activity');
+        return $this->hasMany('App\Event');
     }
 }

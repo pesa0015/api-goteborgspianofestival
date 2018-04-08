@@ -8,7 +8,7 @@ use App\Day;
 class DayTransformer extends Fractal\TransformerAbstract
 {
     protected $defaultIncludes = [
-        'activities'
+        'events'
     ];
 
     public function transform(Day $day)
@@ -24,10 +24,10 @@ class DayTransformer extends Fractal\TransformerAbstract
      *
      * @return League\Fractal\CollectionResource
      */
-    public function includeActivities(Day $day)
+    public function includeEvents(Day $day)
     {
-        $activities = $day->activities;
+        $events = $day->events;
 
-        return $this->collection($activities, new ActivityTransformer);
+        return $this->collection($events, new EventTransformer);
     }
 }

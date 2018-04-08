@@ -24,7 +24,7 @@ class YearsTest extends TestCase
                         '*' => [
                             'date',
                             'month',
-                            'activities' => [
+                            'events' => [
                                 'data' => [
                                     '*' => [
                                         'start',

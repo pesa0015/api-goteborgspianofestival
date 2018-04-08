@@ -15,10 +15,10 @@ class YearsController extends CustomController
     {
         $yearsRaw = Year::activeYears()->with([
             'days',
-            'days.activities',
-            'days.activities.location',
-            'days.activities.room',
-            'days.activities.translations' => function ($query) {
+            'days.events',
+            'days.events.location',
+            'days.events.room',
+            'days.events.translations' => function ($query) {
                 return $query->ofLang();
             }
         ])->get();

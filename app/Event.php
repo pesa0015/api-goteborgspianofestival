@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Activity extends BaseModel
+class Event extends BaseModel
 {
     protected $fillable = [
         'start',

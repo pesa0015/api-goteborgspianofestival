@@ -11,7 +11,7 @@ class DatabaseSeeder extends Seeder
         DaysSeeder::class,
         LocationsSeeder::class,
         RoomsSeeder::class,
-        ActivitiesSeeder::class,
+        EventsSeeder::class,
         SponsorsSeeder::class
     ];
 

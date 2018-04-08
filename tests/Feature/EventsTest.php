@@ -4,17 +4,17 @@ namespace Tests\Feature;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use App\Activity;
+use App\Event;
 
-class ActivitiesTest extends TestCase
+class EventsTest extends TestCase
 {
     /**
      * @group getDays
      *
      */
-    public function testActivitiesHasTranslations()
+    public function testEventsHasTranslations()
     {
-        $activity = Activity::where('name', 'Mästarklass')->first();
+        $activity = Event::where('name', 'Mästarklass')->first();
 
         $this->assertDatabaseHas('translateables', [
             'translateable_id'   => $activity->id,

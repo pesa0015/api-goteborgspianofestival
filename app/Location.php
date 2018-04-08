@@ -10,9 +10,9 @@ class Location extends Model
         'name', 'img', 'show'
     ];
 
-    public function activities()
+    public function events()
     {
-        return $this->hasMany('App\Activity');
+        return $this->hasMany('App\Event');
     }
 
     public function rooms()
