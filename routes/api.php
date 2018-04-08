@@ -13,5 +13,4 @@
 
 Route::get('years/current', 'YearsController@current');
 Route::resource('years', 'YearsController', ['only' => ['index']]);
-Route::resource('days', 'DaysController', ['only' => ['index']]);
 Route::resource('sponsors', 'SponsorsController', ['only' => ['index']]);
