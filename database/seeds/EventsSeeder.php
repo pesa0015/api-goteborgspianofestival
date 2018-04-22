@@ -24,11 +24,11 @@ class EventsSeeder extends DatabaseSeeder
                 continue;
             }
 
-            $this->seedActivities($events, $day);
+            $this->seedEvents($events, $day);
         }
     }
 
-    private function seedActivities($events, $day)
+    private function seedEvents($events, $day)
     {
         foreach ($events as $event) {
             $originalEvent = clone $event;
