@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Pianist extends Model
 {
     protected $fillable = [
-        'name', 'bio', 'img'
+        'name', 'slug', 'bio', 'img'
     ];
 
     public function translations()
