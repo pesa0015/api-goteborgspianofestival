@@ -25,8 +25,6 @@ class ChangeTranslateablesColumnTranslationToText extends Migration
      */
     public function down()
     {
-        Schema::table('translateables', function (Blueprint $table) {
-            $table->string('translation')->change();
-        });
+        //
     }
 }
