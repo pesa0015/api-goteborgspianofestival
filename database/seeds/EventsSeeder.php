@@ -5,6 +5,7 @@ use App\EventPage;
 use App\Day;
 use App\Location;
 use App\Room;
+use App\Pianist;
 
 class EventsSeeder extends DatabaseSeeder
 {
@@ -37,11 +38,18 @@ class EventsSeeder extends DatabaseSeeder
             unset($event->location);
             unset($event->room);
 
+            if (isset($event->pianist)) {
+                $pianist = Pianist::where('slug', $event->pianist)->firstOrFail()->id;
+            } else {
+                $pianist = null;
+            }
+
             $seededEvent = Event::create([
                 'start'       => $event->start,
                 'end'         => $event->end,
                 'name'        => isset($event->name->sv) ? $event->name->sv : $event->name,
                 'description' => isset($event->description->sv) ? $event->description->sv : $event->description,
+                'pianist_id'  => $pianist,
             ]);
 
             $this->translate($seededEvent, $event);

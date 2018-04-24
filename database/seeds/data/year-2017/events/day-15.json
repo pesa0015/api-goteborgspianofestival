@@ -5,6 +5,7 @@
         "name": "Mästarklass",
         "description": "med Beata Anselmsson",
         "eventpage": "mastarklasser",
+        "pianist": "beata-anselmsson",
         "location": "Göteborgs konserthus",
         "room": "Neeme Järvi-salen"
     },
@@ -14,6 +15,7 @@
         "name": "Mästarklass",
         "description": "med Bernt Wilhelmsson",
         "eventpage": "mastarklasser",
+        "pianist": "beata-anselmsson",
         "location": "Göteborgs konserthus",
         "room": "Viktor Rydbergssalen"
     },
@@ -23,6 +25,7 @@
         "name": "Mästarklass",
         "description": "med Beata Anselmsson",
         "eventpage": "mastarklasser",
+        "pianist": "beata-anselmsson",
         "location": "Göteborgs konserthus",
         "room": "Neeme Järvi-salen"
     },
@@ -32,6 +35,7 @@
         "name": "Mästarklass",
         "description": "med Thomas Rydfeldt",
         "eventpage": "mastarklasser",
+        "pianist": "thomas-rydfeldt",
         "location": "Göteborgs konserthus",
         "room": "Viktor Rydbergssalen"
     }

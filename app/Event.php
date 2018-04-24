@@ -11,6 +11,7 @@ class Event extends BaseModel
         'end',
         'name',
         'description',
+        'pianist_id',
         'event_page_id',
         'location_id',
         'room_id',
@@ -35,6 +36,11 @@ class Event extends BaseModel
     public function day()
     {
         return $this->belongsTo('App\Day');
+    }
+
+    public function pianist()
+    {
+        return $this->belongsTo('App\Pianist');
     }
 
     public function translations()

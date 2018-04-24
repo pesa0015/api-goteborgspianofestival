@@ -29,6 +29,7 @@
             }
         },
         "eventpage": "mastarklasser",
+        "pianist": "thomas-rydfeldt",
         "location": "Artisten",
         "room": "Ohlinsalen"
     },
@@ -62,6 +63,7 @@
             }
         },
         "eventpage": "mastarklasser",
+        "pianist": "maria-rostotsky",
         "location": "Artisten",
         "room": "A503"
     },
@@ -83,6 +85,7 @@
             }
         },
         "eventpage": "mastarklasser",
+        "pianist": "magdalena-prahl",
         "location": "Artisten",
         "room": "A602"
     },
@@ -116,6 +119,7 @@
             }
         },
         "eventpage": "mastarklasser",
+        "pianist": "thomas-rydfeldt",
         "location": "Artisten",
         "room": "Ohlinsalen"
     },
@@ -149,6 +153,7 @@
             }
         },
         "eventpage": "mastarklasser",
+        "pianist": "maria-rostotsky",
         "location": "Artisten",
         "room": "A503"
     }

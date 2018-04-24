@@ -13,6 +13,7 @@
         "end": "15:30",
         "name": "Föreläsning",
         "description": "med Thomas Rydfeldt",
+        "pianist": "thomas-rydfeldt",
         "location": "Världskulturmuseet",
         "room": "Trappan"
     }

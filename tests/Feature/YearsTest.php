@@ -31,6 +31,7 @@ class YearsTest extends TestCase
                                         'end',
                                         'name',
                                         'description',
+                                        'pianist',
                                         'location',
                                         'room'
                                     ]

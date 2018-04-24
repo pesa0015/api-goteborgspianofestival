@@ -5,6 +5,7 @@
         "name": "Mästarklass",
         "description": "med Mikael Kanarva",
         "eventpage": "mastarklasser",
+        "pianist": "mikael-kanarva",
         "location": "Göteborgs konserthus",
         "room": null
     },
@@ -41,6 +42,7 @@
         "name": "Mästarklass",
         "description": "med Mikael Kanarva",
         "eventpage": "mastarklasser",
+        "pianist": "mikael-kanarva",
         "location": "Göteborgs konserthus",
         "room": null
     },
