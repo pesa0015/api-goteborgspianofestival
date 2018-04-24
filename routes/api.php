@@ -14,3 +14,4 @@
 Route::get('years/current', 'YearsController@current');
 Route::resource('years', 'YearsController', ['only' => ['index']]);
 Route::resource('sponsors', 'SponsorsController', ['only' => ['index']]);
+Route::get('program/{year}/{slug}', 'EventPagesController@show');

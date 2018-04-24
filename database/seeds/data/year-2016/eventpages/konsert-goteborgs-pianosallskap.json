@@ -1,0 +1,29 @@
+{
+    "title": {
+        "sv": "Konsert med Göteborgs Pianosällskap",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Konsert med Göteborgs Pianosällskap"
+                },
+                {
+                    "en": "Konsert med Göteborgs Pianosällskap"
+                }
+            ]
+        }
+    },
+    "description": {
+        "sv": "Göteborgs pianosällskap bildades 2016 av en ung generation klassiska pianister som avslutat sina musikhögskolestudier. Sällskapet arrangerar vanligtvis konserter och sätter alltid pianomusiken och pianisterna i centrum. Under pianofestivalen gör de en konsert med en bukett av härliga pianostycken av bl.a. Frédéric Chopin, Nikolai Kapustin, Gunnar de Frumerie.",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Göteborgs pianosällskap bildades 2016 av en ung generation klassiska pianister som avslutat sina musikhögskolestudier. Sällskapet arrangerar vanligtvis konserter och sätter alltid pianomusiken och pianisterna i centrum. Under pianofestivalen gör de en konsert med en bukett av härliga pianostycken av bl.a. Frédéric Chopin, Nikolai Kapustin, Gunnar de Frumerie."
+                },
+                {
+                    "en": "Göteborgs pianosällskap bildades 2016 av en ung generation klassiska pianister som avslutat sina musikhögskolestudier. Sällskapet arrangerar vanligtvis konserter och sätter alltid pianomusiken och pianisterna i centrum. Under pianofestivalen gör de en konsert med en bukett av härliga pianostycken av bl.a. Frédéric Chopin, Nikolai Kapustin, Gunnar de Frumerie."
+                }
+            ]
+        }
+    },
+    "slug": "konsert-med-goteborgs-pianosallskap"
+}

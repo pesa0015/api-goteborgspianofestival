@@ -1,0 +1,29 @@
+{
+    "title": {
+        "sv": "Unga och Lovande pianister",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Unga och Lovande pianister"
+                },
+                {
+                    "en": "Unga och Lovande pianister"
+                }
+            ]
+        }
+    },
+    "description": {
+        "sv": "Konsertserien Unga och Lovande Pianister består av 3 konserter under festivalveckan. Vi lyfter fram dagens unga lovande pianister som kommer att bjuda på ett briljant och mycket varierat program.",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Konsertserien Unga och Lovande Pianister består av 3 konserter under festivalveckan. Vi lyfter fram dagens unga lovande pianister som kommer att bjuda på ett briljant och mycket varierat program."
+                },
+                {
+                    "en": "Konsertserien Unga och Lovande Pianister består av 3 konserter under festivalveckan. Vi lyfter fram dagens unga lovande pianister som kommer att bjuda på ett briljant och mycket varierat program."
+                }
+            ]
+        }
+    },
+    "slug": "unga-och-lovande-pianister-del-1"
+}

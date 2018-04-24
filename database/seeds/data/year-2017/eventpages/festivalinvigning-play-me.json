@@ -1,0 +1,29 @@
+{
+    "title": {
+        "sv": "Festivalinvigning + Play me",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Festivalinvigning + Play me"
+                },
+                {
+                    "en": "Festivalinvigning + Play me"
+                }
+            ]
+        }
+    },
+    "description": {
+        "sv": "Invigning av årets pianofestival under högtidliga former med trumpet fanfar och pianospel. Det blir även officiell invigning av Play me-pianot som står utanför muséet under veckan och väntar otåligt att bli både spelat och målat av barn och unga.<br />Innanför muséet har alla möjlighet att testa vår sponsors Casio’s nya C.Bechstein Grand Hybrid digitalpianon.",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Invigning av årets pianofestival under högtidliga former med trumpet fanfar och pianospel. Det blir även officiell invigning av Play me-pianot som står utanför muséet under veckan och väntar otåligt att bli både spelat och målat av barn och unga.<br />Innanför muséet har alla möjlighet att testa vår sponsors Casio’s nya C.Bechstein Grand Hybrid digitalpianon."
+                },
+                {
+                    "en": "Invigning av årets pianofestival under högtidliga former med trumpet fanfar och pianospel. Det blir även officiell invigning av Play me-pianot som står utanför muséet under veckan och väntar otåligt att bli både spelat och målat av barn och unga.<br />Innanför muséet har alla möjlighet att testa vår sponsors Casio’s nya C.Bechstein Grand Hybrid digitalpianon."
+                }
+            ]
+        }
+    },
+    "slug": "festivalinvigning-play-me"
+}

@@ -4,6 +4,7 @@
         "end": "12:00",
         "name": "Mästarklass",
         "description": "med Mikael Kanarva",
+        "eventpage": "mastarklasser",
         "location": "Göteborgs konserthus",
         "room": null
     },
@@ -12,6 +13,7 @@
         "end": "12:45",
         "name": "Invigning av Festivalen och PLAY ME",
         "description": null,
+        "eventpage": "festivalinvigning-play-me",
         "location": "Världskulturmuseet",
         "room": null
     },
@@ -20,6 +22,7 @@
         "end": "14:00",
         "name": "Konsertserie Unga och Lovande Pianister del 1",
         "description": "Daumants Liepins<br />Filip Michalak",
+        "eventpage": "unga-och-lovande-pianister-del-1",
         "location": "Världskulturmuseet",
         "room": null
     },
@@ -28,6 +31,7 @@
         "end": "15:30",
         "name": "Konsert: Pianosällskapet i Väst med unga pianister",
         "description": null,
+        "eventpage": "konsert-pianosallskapet-i-vast",
         "location": "Världskulturmuseet",
         "room": null
     },
@@ -36,6 +40,7 @@
         "end": "17:00",
         "name": "Mästarklass",
         "description": "med Mikael Kanarva",
+        "eventpage": "mastarklasser",
         "location": "Göteborgs konserthus",
         "room": null
     },

@@ -1,0 +1,29 @@
+{
+    "title": {
+        "sv": "Konstutställning",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Konstutställning"
+                },
+                {
+                    "en": "Konstutställning"
+                }
+            ]
+        }
+    },
+    "description": {
+        "sv": "Vi har ett samarbete med Kulturskolan i Göteborg och har i år förutom musikelever även bjudit in konstelever till att skapa konst i form av skulpturer som relaterar till musiken. Dessa ställs ut i GöteborgsOperans foajé under dagen.",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Vi har ett samarbete med Kulturskolan i Göteborg och har i år förutom musikelever även bjudit in konstelever till att skapa konst i form av skulpturer som relaterar till musiken. Dessa ställs ut i GöteborgsOperans foajé under dagen."
+                },
+                {
+                    "en": "Vi har ett samarbete med Kulturskolan i Göteborg och har i år förutom musikelever även bjudit in konstelever till att skapa konst i form av skulpturer som relaterar till musiken. Dessa ställs ut i GöteborgsOperans foajé under dagen."
+                }
+            ]
+        }
+    },
+    "slug": "konstutstallning"
+}

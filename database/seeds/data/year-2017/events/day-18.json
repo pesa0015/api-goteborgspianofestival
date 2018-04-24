@@ -4,14 +4,16 @@
         "end": "12:00",
         "name": "Mästarklass för avancerade",
         "description": "med Peter Jablonski",
+        "eventpage": "mastarklasser",
         "location": "Göteborgs konserthus",
         "room": "Viktor Rydbergssalen"
     },
     {
         "start": "13:00",
         "end": "14:00",
-        "name": "Konsertserie Unga och Lovande Pianister del 2",
+        "name": "Konsertserie Unga och Lovande Pianister del 3",
         "description": "Julia Isaksson<br />Viktor Yuandong Mattsson",
+        "eventpage": "unga-och-lovande-pianister-del-3",
         "location": "Världskulturmuseet",
         "room": null
     },
@@ -20,6 +22,7 @@
         "end": "15:30",
         "name": "Kammarmusikkonsert",
         "description": "Piano möter stråkar",
+        "eventpage": "piano-moter-strakar",
         "location": "Göteborgs konserthus",
         "room": null
     },
@@ -36,6 +39,7 @@
         "end": "18:00",
         "name": "After Work-konsert",
         "description": "Klassiskt möter jazz!<br />med Mattias Nilsson",
+        "eventpage": "klassiskt-moter-jazz",
         "location": "Stora teatern",
         "room": "Kristallfoajén"
     }

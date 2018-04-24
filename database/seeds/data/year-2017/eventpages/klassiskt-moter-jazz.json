@@ -1,0 +1,29 @@
+{
+    "title": {
+        "sv": "After Work-konsert: Klassiskt möter jazz!",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "After Work-konsert: Klassiskt möter jazz!"
+                },
+                {
+                    "en": "After Work-konsert: Klassiskt möter jazz!"
+                }
+            ]
+        }
+    },
+    "description": {
+        "sv": "Tillsammans med den klassiska pianisten Ha-Young Sul tolkar jazzpianisten Mattias Nilsson klassiska tonsättare, från Bach, Ravel, Gershwin till svenska folkvisor.",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Tillsammans med den klassiska pianisten Ha-Young Sul tolkar jazzpianisten Mattias Nilsson klassiska tonsättare, från Bach, Ravel, Gershwin till svenska folkvisor."
+                },
+                {
+                    "en": "Tillsammans med den klassiska pianisten Ha-Young Sul tolkar jazzpianisten Mattias Nilsson klassiska tonsättare, från Bach, Ravel, Gershwin till svenska folkvisor."
+                }
+            ]
+        }
+    },
+    "slug": "klassiskt-moter-jazz"
+}

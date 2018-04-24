@@ -4,6 +4,7 @@
         "end": "12:00",
         "name": "Mästarklass på högre nivå",
         "description": "med Martin Sturfält",
+        "eventpage": "mastarklasser",
         "location": "Artisten",
         "room": "C602"
     },
@@ -12,6 +13,7 @@
         "end": "15:00",
         "name": "Mästarklass på högre nivå",
         "description": "med Martin Sturfält",
+        "eventpage": "mastarklasser",
         "location": "Artisten",
         "room": "C602"
     },
@@ -20,6 +22,7 @@
         "end": "16:00",
         "name": "Mästarklass på högre nivå",
         "description": "med Katrine Gislinge",
+        "eventpage": "mastarklasser",
         "location": "Artisten",
         "room": "A502"
     },
@@ -28,6 +31,7 @@
         "end": "16:00",
         "name": "Maratonkonsert för Barn och Unga",
         "description": "Program delas ut på konserten",
+        "eventpage": "maratonkonsert",
         "location": "Världskulturmuseet",
         "room": "Trappan"
     }

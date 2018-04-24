@@ -12,6 +12,7 @@ class DatabaseSeeder extends Seeder
         LocationsSeeder::class,
         RoomsSeeder::class,
         PianistsSeeder::class,
+        EventPagesSeeder::class,
         EventsSeeder::class,
         SponsorsSeeder::class
     ];

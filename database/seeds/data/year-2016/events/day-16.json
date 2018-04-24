@@ -28,6 +28,7 @@
                 ]
             }
         },
+        "eventpage": "mastarklasser",
         "location": "Artisten",
         "room": "Ohlinsalen"
     },
@@ -60,6 +61,7 @@
                 ]
             }
         },
+        "eventpage": "mastarklasser",
         "location": "Artisten",
         "room": "A503"
     },
@@ -80,6 +82,7 @@
                 ]
             }
         },
+        "eventpage": "mastarklasser",
         "location": "Artisten",
         "room": "A602"
     },
@@ -112,6 +115,7 @@
                 ]
             }
         },
+        "eventpage": "mastarklasser",
         "location": "Artisten",
         "room": "Ohlinsalen"
     },
@@ -144,6 +148,7 @@
                 ]
             }
         },
+        "eventpage": "mastarklasser",
         "location": "Artisten",
         "room": "A503"
     }

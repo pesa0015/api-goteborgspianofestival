@@ -1,0 +1,29 @@
+{
+    "title": {
+        "sv": "Festivalkonsert",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Festivalkonsert"
+                },
+                {
+                    "en": "Festivalkonsert"
+                }
+            ]
+        }
+    },
+    "description": {
+        "sv": "Traditionsenligt bjuder vi på en sprakande festivalkonsert med många gäster i GöteborgsOperans stora och öppna foajé! Sveriges mest folkkäre pianist Robert Wells återvänder till festivalen och bjuder på sina specialiteter. Det blir också framträdanden av bl.a. Bernt Wilhelmsson och Ha-Young Sul, samt en och annan överraskning!",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Traditionsenligt bjuder vi på en sprakande festivalkonsert med många gäster i GöteborgsOperans stora och öppna foajé! Sveriges mest folkkäre pianist Robert Wells återvänder till festivalen och bjuder på sina specialiteter. Det blir också framträdanden av bl.a. Bernt Wilhelmsson och Ha-Young Sul, samt en och annan överraskning!"
+                },
+                {
+                    "en": "Traditionsenligt bjuder vi på en sprakande festivalkonsert med många gäster i GöteborgsOperans stora och öppna foajé! Sveriges mest folkkäre pianist Robert Wells återvänder till festivalen och bjuder på sina specialiteter. Det blir också framträdanden av bl.a. Bernt Wilhelmsson och Ha-Young Sul, samt en och annan överraskning!"
+                }
+            ]
+        }
+    },
+    "slug": "festivalkonsert"
+}

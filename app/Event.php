@@ -11,10 +11,16 @@ class Event extends BaseModel
         'end',
         'name',
         'description',
+        'event_page_id',
         'location_id',
         'room_id',
         'day_id'
     ];
+
+    public function eventPage()
+    {
+        return $this->belongsTo('App\EventPage');
+    }
 
     public function location()
     {

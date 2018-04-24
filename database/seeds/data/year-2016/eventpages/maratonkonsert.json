@@ -1,0 +1,29 @@
+{
+    "title": {
+        "sv": "Maratonkonsert",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Maratonkonsert"
+                },
+                {
+                    "en": "Maratonkonsert"
+                }
+            ]
+        }
+    },
+    "description": {
+        "sv": "Alla medverkande unga pianister får möjlighet att framträda under en maratonkonsert under lördagen, som pågår i fyra timmar!<br />I mitten av finalkonserten på söndagen den 21/8 kommer vi också tillsammans med vår samarbetspartner och sponsor Steinway & Sons att dela ut 4 stycken inspirationsstipendier till pianoelever som har visat sig särskilt lovande under festivalen.",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Alla medverkande unga pianister får möjlighet att framträda under en maratonkonsert under lördagen, som pågår i fyra timmar!<br />I mitten av finalkonserten på söndagen den 21/8 kommer vi också tillsammans med vår samarbetspartner och sponsor Steinway & Sons att dela ut 4 stycken inspirationsstipendier till pianoelever som har visat sig särskilt lovande under festivalen."
+                },
+                {
+                    "en": "Alla medverkande unga pianister får möjlighet att framträda under en maratonkonsert under lördagen, som pågår i fyra timmar!<br />I mitten av finalkonserten på söndagen den 21/8 kommer vi också tillsammans med vår samarbetspartner och sponsor Steinway & Sons att dela ut 4 stycken inspirationsstipendier till pianoelever som har visat sig särskilt lovande under festivalen."
+                }
+            ]
+        }
+    },
+    "slug": "maratonkonsert"
+}

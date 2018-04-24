@@ -1,0 +1,29 @@
+{
+    "title": {
+        "sv": "Konsert: Pianosällskapet i Väst",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Konsert: Pianosällskapet i Väst"
+                },
+                {
+                    "en": "Konsert: Pianosällskapet i Väst"
+                }
+            ]
+        }
+    },
+    "description": {
+        "sv": "Pianosällskapet i Väst bildades 2016 av en ung generation klassiska pianister som avslutat sina musikhögskolestudier. Pianisterna i sällskapet framträder på konserter under året med musik under olika rubriker. Sedan 2017 hålls konserterna i Artistens lokaler.<br />Här presenteras pianisten Henrik Kilhamn som spelar både klassiskt och filmmusik, och ger sig också på Keith Jarrets legendariska Köln Concert.",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Pianosällskapet i Väst bildades 2016 av en ung generation klassiska pianister som avslutat sina musikhögskolestudier. Pianisterna i sällskapet framträder på konserter under året med musik under olika rubriker. Sedan 2017 hålls konserterna i Artistens lokaler.<br />Här presenteras pianisten Henrik Kilhamn som spelar både klassiskt och filmmusik, och ger sig också på Keith Jarrets legendariska Köln Concert."
+                },
+                {
+                    "en": "Pianosällskapet i Väst bildades 2016 av en ung generation klassiska pianister som avslutat sina musikhögskolestudier. Pianisterna i sällskapet framträder på konserter under året med musik under olika rubriker. Sedan 2017 hålls konserterna i Artistens lokaler.<br />Här presenteras pianisten Henrik Kilhamn som spelar både klassiskt och filmmusik, och ger sig också på Keith Jarrets legendariska Köln Concert."
+                }
+            ]
+        }
+    },
+    "slug": "konsert-pianosallskapet-i-vast"
+}

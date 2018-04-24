@@ -1,0 +1,29 @@
+{
+    "title": {
+        "sv": "Sagornas Musik",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Sagornas Musik"
+                },
+                {
+                    "en": "Sagornas Musik"
+                }
+            ]
+        }
+    },
+    "description": {
+        "sv": "Ha-Young Sul och Maria Rostotsky är två etablerade pianister som har gedigen pianistbakgrund. I \"Sagornas musik\" spelar och berättar de om fransk musik med härlig musik av bla. Ravel och Debussy. Detta föredrag passar alla åldrar.",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Ha-Young Sul och Maria Rostotsky är två etablerade pianister som har gedigen pianistbakgrund. I \"Sagornas musik\" spelar och berättar de om fransk musik med härlig musik av bla. Ravel och Debussy. Detta föredrag passar alla åldrar."
+                },
+                {
+                    "en": "Ha-Young Sul och Maria Rostotsky är två etablerade pianister som har gedigen pianistbakgrund. I \"Sagornas musik\" spelar och berättar de om fransk musik med härlig musik av bla. Ravel och Debussy. Detta föredrag passar alla åldrar."
+                }
+            ]
+        }
+    },
+    "slug": "sagornas-musik"
+}

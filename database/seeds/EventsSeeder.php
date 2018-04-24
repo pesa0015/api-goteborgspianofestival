@@ -1,6 +1,7 @@
 <?php
 
 use App\Event;
+use App\EventPage;
 use App\Day;
 use App\Location;
 use App\Room;
@@ -53,6 +54,19 @@ class EventsSeeder extends DatabaseSeeder
                 ->room()->associate($room)
                 ->day()->associate($day)
                 ->update();
+
+            if (!isset($event->eventpage)) {
+                continue;
+            }
+
+            $eventPage = EventPage::where('slug', $event->eventpage)->first();
+
+            if (!$eventPage) {
+                $this->command->warn('Eventpage ' . $event->eventpage . ' not found for event ' . $seededEvent->name . ' (id ' . $seededEvent->id . ')');
+            }
+
+            $seededEvent->eventPage()->associate($eventPage);
+            $seededEvent->update();
         }
     }
 }

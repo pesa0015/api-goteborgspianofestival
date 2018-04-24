@@ -1,0 +1,29 @@
+{
+    "title": {
+        "sv": "Mästarklasser",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Mästarklasser"
+                },
+                {
+                    "en": "Masterclasses"
+                }
+            ]
+        }
+    },
+    "description": {
+        "sv": "Göteborgs Pianofestival satsar i år stort på mästarklasser för yngre pianister. Vi vill vara sammanhanget där pianoelever möts kring sitt intresse, och där är mästarklassen en viktig knutpunkt där man får spela för en ny lärare och bli inspirerad av att höra andra elever spela.<br />Inbjudna pedagoger i år är:<br />Maria Rostotsky, pianopedagog på Lilla akademien i Stockholm<br />Natalia Kazmirovskaia, pianopedagog i Stockholm, ledare för Stockholm Music Competition<br />Thomas Rydfeldt, pianopedagog i Göteborg, lektor på Högskolan för scen och musik<br />Alla medverkande unga pianister får möjlighet att framträda under en maratonkonsert under lördagen, som pågår i fyra timmar! I slutet av konserten kommer vi också tillsammans med vår samarbetspartner och sponsor Steinway & sons att dela ut 4 stycken inspirationsstipendier till pianoelever som har visat sig särskilt lovande under festivalen.",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Göteborgs Pianofestival satsar i år stort på mästarklasser för yngre pianister. Vi vill vara sammanhanget där pianoelever möts kring sitt intresse, och där är mästarklassen en viktig knutpunkt där man får spela för en ny lärare och bli inspirerad av att höra andra elever spela.<br />Inbjudna pedagoger i år är:<br />Maria Rostotsky, pianopedagog på Lilla akademien i Stockholm<br />Natalia Kazmirovskaia, pianopedagog i Stockholm, ledare för Stockholm Music Competition<br />Thomas Rydfeldt, pianopedagog i Göteborg, lektor på Högskolan för scen och musik<br />Alla medverkande unga pianister får möjlighet att framträda under en maratonkonsert under lördagen, som pågår i fyra timmar! I slutet av konserten kommer vi också tillsammans med vår samarbetspartner och sponsor Steinway & sons att dela ut 4 stycken inspirationsstipendier till pianoelever som har visat sig särskilt lovande under festivalen."
+                },
+                {
+                    "en": "Göteborgs Pianofestival satsar i år stort på mästarklasser för yngre pianister. Vi vill vara sammanhanget där pianoelever möts kring sitt intresse, och där är mästarklassen en viktig knutpunkt där man får spela för en ny lärare och bli inspirerad av att höra andra elever spela.<br />Inbjudna pedagoger i år är:<br />Maria Rostotsky, pianopedagog på Lilla akademien i Stockholm<br />Natalia Kazmirovskaia, pianopedagog i Stockholm, ledare för Stockholm Music Competition<br />Thomas Rydfeldt, pianopedagog i Göteborg, lektor på Högskolan för scen och musik<br />Alla medverkande unga pianister får möjlighet att framträda under en maratonkonsert under lördagen, som pågår i fyra timmar! I slutet av konserten kommer vi också tillsammans med vår samarbetspartner och sponsor Steinway & sons att dela ut 4 stycken inspirationsstipendier till pianoelever som har visat sig särskilt lovande under festivalen."
+                }
+            ]
+        }
+    },
+    "slug": "mastarklasser"
+}

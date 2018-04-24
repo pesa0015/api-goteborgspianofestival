@@ -1,0 +1,29 @@
+{
+    "title": {
+        "sv": "Musikquiz",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Musikquiz"
+                },
+                {
+                    "en": "Musikquiz"
+                }
+            ]
+        }
+    },
+    "description": {
+        "sv": "Vad vet du om musiken och kompositörerna? Lena Zirk, lärare på Kulturskolan, håller i ett musikquiz som riktar sig till barn & unga. Pianoelever och medlemmar i festivalstyrelsen spelar stycken som blir föremål för frågor. På slutet blir det prisutdelning!",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Vad vet du om musiken och kompositörerna? Lena Zirk, lärare på Kulturskolan, håller i ett musikquiz som riktar sig till barn & unga. Pianoelever och medlemmar i festivalstyrelsen spelar stycken som blir föremål för frågor. På slutet blir det prisutdelning!"
+                },
+                {
+                    "en": "Vad vet du om musiken och kompositörerna? Lena Zirk, lärare på Kulturskolan, håller i ett musikquiz som riktar sig till barn & unga. Pianoelever och medlemmar i festivalstyrelsen spelar stycken som blir föremål för frågor. På slutet blir det prisutdelning!"
+                }
+            ]
+        }
+    },
+    "slug": "musikquiz"
+}
