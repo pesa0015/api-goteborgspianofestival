@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\EventPage;
+use App\Year;
 
 class EventPagesController extends CustomController
 {
@@ -15,10 +16,9 @@ class EventPagesController extends CustomController
      */
     public function show(Request $request, $year, $slug)
     {
-        $eventPageRaw = EventPage::where('slug', $slug)->with([
-            'year' => function ($query) use ($request) {
-                return $query->where('year', $request->year)->firstOrFail();
-            },
+        $eventYear = Year::where('year', $year)->firstOrFail();
+
+        $eventPageRaw = EventPage::where('slug', $slug)->where('year_id', $eventYear->id)->with([
             'translations' => function ($query) {
                 return $query->ofLang();
             }
