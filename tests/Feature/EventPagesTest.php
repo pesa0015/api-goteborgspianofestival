@@ -47,4 +47,32 @@ class EventPagesTest extends TestCase
             'title' => 'Masterclasses'
         ]);
     }
+
+    /**
+     * @group showEventPage
+     *
+     */
+    public function testShowEventPage()
+    {
+        $eventPage = EventPage::whereHas('pianists')->inRandomOrder()->first();
+
+        $response = $this->get('/program/' . $eventPage->year->year . '/' . $eventPage->slug);
+
+        $response->assertStatus(200);
+
+        $response->assertJsonStructure([
+            'title',
+            'description',
+            'img',
+            'pianists' => [
+                'data' => [
+                    '*' => [
+                        'name',
+                        'bio',
+                        'img',
+                    ]
+                ]
+            ]
+        ]);
+    }
 }

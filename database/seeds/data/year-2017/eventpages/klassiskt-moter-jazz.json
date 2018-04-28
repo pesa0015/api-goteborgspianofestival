@@ -25,5 +25,10 @@
             ]
         }
     },
-    "slug": "klassiskt-moter-jazz"
+    "slug": "klassiskt-moter-jazz",
+    "pianists": [
+        {
+            "slug": "mattias-nilsson"
+        }
+    ]
 }

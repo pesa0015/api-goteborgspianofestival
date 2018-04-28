@@ -1,7 +1,9 @@
 <?php
 
 use App\EventPage;
+use App\EventPagePianist;
 use App\Year;
+use App\Pianist;
 
 class EventPagesSeeder extends DatabaseSeeder
 {
@@ -38,6 +40,19 @@ class EventPagesSeeder extends DatabaseSeeder
             'img'         => null,
             'year_id'     => $year->id
         ]);
+
+        if (isset($eventPage->pianists)) {
+            foreach ($eventPage->pianists as $eventPianist) {
+                $pianist = Pianist::where('slug', $eventPianist->slug)->firstOrFail();
+
+                EventPagePianist::create([
+                    'event_page_id' => $seededPage->id,
+                    'pianist_id'    => $pianist->id,
+                    'bio'           => isset($eventPianist->bio) ? $eventPianist->bio : null,
+                    'img'           => isset($eventPianist->img) ? $eventPianist->img : null
+                ]);
+            }
+        }
         
         $this->translate($seededPage, $eventPage);
     }

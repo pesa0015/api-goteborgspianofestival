@@ -25,5 +25,19 @@
             ]
         }
     },
-    "slug": "piano-moter-strakar"
+    "slug": "piano-moter-strakar",
+    "pianists": [
+        {
+            "slug": "kalle-stenbacken"
+        },
+        {
+            "slug": "henrik-kilhamn"
+        },
+        {
+            "slug": "anna-brolin"
+        },
+        {
+            "slug": "malvakvartetten"
+        }
+    ]
 }

@@ -7,6 +7,10 @@ use App\EventPage;
 
 class EventPageTransformer extends Fractal\TransformerAbstract
 {
+    protected $defaultIncludes = [
+        'pianists'
+    ];
+
     public function transform(EventPage $eventPage)
     {
         return [
@@ -14,5 +18,17 @@ class EventPageTransformer extends Fractal\TransformerAbstract
             'description' => $eventPage->t('description'),
             'img'         => $eventPage->img,
         ];
+    }
+
+    /**
+     * Include pianists
+     *
+     * @return League\Fractal\CollectionResource
+     */
+    public function includePianists(EventPage $eventPage)
+    {
+        $pianists = $eventPage->pianists;
+
+        return $this->collection($pianists, new PianistTransformer);
     }
 }

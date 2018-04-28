@@ -25,5 +25,25 @@
             ]
         }
     },
-    "slug": "familjekonsert-djurens-karnival"
+    "slug": "familjekonsert-djurens-karnival",
+    "pianists": [
+        {
+            "slug": "ha-young-sul"
+        },
+        {
+            "slug": "anna-brolin"
+        },
+        {
+            "slug": "malvakvartetten"
+        },
+        {
+            "slug": "beatrice-seyzeriat"
+        },
+        {
+            "slug": "ann-elkjar"
+        },
+        {
+            "slug": "adrian-eriksson"
+        }
+    ]
 }

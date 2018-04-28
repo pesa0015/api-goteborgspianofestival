@@ -25,5 +25,13 @@
             ]
         }
     },
-    "slug": "sagornas-musik"
+    "slug": "sagornas-musik",
+    "pianists": [
+        {
+            "slug": "ha-young-sul"
+        },
+        {
+            "slug": "maria-rostotsky"
+        }
+    ]
 }

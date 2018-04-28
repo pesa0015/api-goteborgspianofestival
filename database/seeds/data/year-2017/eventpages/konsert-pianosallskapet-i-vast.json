@@ -25,5 +25,10 @@
             ]
         }
     },
-    "slug": "konsert-pianosallskapet-i-vast"
+    "slug": "konsert-pianosallskapet-i-vast",
+    "pianists": [
+        {
+            "slug": "henrik-kilhamn"
+        }
+    ]
 }

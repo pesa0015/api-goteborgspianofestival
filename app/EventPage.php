@@ -20,6 +20,11 @@ class EventPage extends BaseModel
         return $this->belongsTo('App\Year');
     }
 
+    public function pianists()
+    {
+        return $this->belongsToMany('App\Pianist');
+    }
+
     public function translations()
     {
         return $this->morphMany('App\Translateable', 'translateable');

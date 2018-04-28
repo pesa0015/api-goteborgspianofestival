@@ -25,5 +25,25 @@
             ]
         }
     },
-    "slug": "finalkonsert"
+    "slug": "finalkonsert",
+    "pianists": [
+        {
+            "slug": "ha-young-sul"
+        },
+        {
+            "slug": "kalle-stenbacken"
+        },
+        {
+            "slug": "henrik-kilhamn"
+        },
+        {
+            "slug": "martin-sturfalt"
+        },
+        {
+            "slug": "katrine-gislinge"
+        },
+        {
+            "slug": "robert-wells"
+        }
+    ]
 }

@@ -25,5 +25,19 @@
             ]
         }
     },
-    "slug": "festivalkonsert"
+    "slug": "festivalkonsert",
+    "pianists": [
+        {
+            "slug": "bernt-wilhelmsson"
+        },
+        {
+            "slug": "ha-young-sul"
+        },
+        {
+            "slug": "robert-wells"
+        },
+        {
+            "slug": "malvakvartetten"
+        }
+    ]
 }

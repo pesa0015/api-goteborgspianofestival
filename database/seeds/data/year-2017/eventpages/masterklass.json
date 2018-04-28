@@ -25,5 +25,28 @@
             ]
         }
     },
-    "slug": "mastarklasser"
+    "slug": "mastarklasser",
+    "pianists": [
+        {
+            "slug": "bernt-wilhelmsson"
+        },
+        {
+            "slug": "thomas-rydfeldt"
+        },
+        {
+            "slug": "robert-wells"
+        },
+        {
+            "slug": "mikael-kanarva"
+        },
+        {
+            "slug": "maurizio-moretti"
+        },
+        {
+            "slug": "peter-jablonski"
+        },
+        {
+            "slug": "beata-anselmsson"
+        }
+    ]
 }

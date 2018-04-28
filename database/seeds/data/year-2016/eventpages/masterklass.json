@@ -25,5 +25,31 @@
             ]
         }
     },
-    "slug": "mastarklasser"
+    "slug": "mastarklasser",
+    "pianists": [
+        {
+            "slug": "bernt-wilhelmsson"
+        },
+        {
+            "slug": "maria-rostotsky"
+        },
+        {
+            "slug": "magdalena-prahl"
+        },
+        {
+            "slug": "natalia-kazmirovskaia"
+        },
+        {
+            "slug": "thomas-rydfeldt"
+        },
+        {
+            "slug": "martin-sturfalt"
+        },
+        {
+            "slug": "katrine-gislinge"
+        },
+        {
+            "slug": "robert-wells"
+        }
+    ]
 }
