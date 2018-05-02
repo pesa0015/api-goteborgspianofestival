@@ -31,6 +31,7 @@ class EventPagesTest extends TestCase
             'title',
             'description',
             'img',
+            'year',
         ]);
 
         // Assert swedish
@@ -64,6 +65,7 @@ class EventPagesTest extends TestCase
             'title',
             'description',
             'img',
+            'year',
             'pianists' => [
                 'data' => [
                     '*' => [
