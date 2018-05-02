@@ -15,6 +15,7 @@ class EventPageTransformer extends Fractal\TransformerAbstract
     {
         return [
             'title'       => $eventPage->t('title'),
+            'slug'        => $eventPage->slug,
             'description' => $eventPage->t('description'),
             'img'         => $eventPage->img,
             'year'        => $eventPage->year->year,

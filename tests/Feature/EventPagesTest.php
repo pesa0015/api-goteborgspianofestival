@@ -29,6 +29,7 @@ class EventPagesTest extends TestCase
 
         $response->assertJsonStructure([
             'title',
+            'slug',
             'description',
             'img',
             'year',
@@ -63,6 +64,7 @@ class EventPagesTest extends TestCase
 
         $response->assertJsonStructure([
             'title',
+            'slug',
             'description',
             'img',
             'year',
