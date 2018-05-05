@@ -11,6 +11,7 @@ class PianistTransformer extends Fractal\TransformerAbstract
     {
         return [
             'name' => $pianist->name,
+            'slug' => $pianist->slug,
             'bio'  => $pianist->bio,
             'img'  => $pianist->img,
         ];
