@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder
         PianistsSeeder::class,
         EventPagesSeeder::class,
         EventsSeeder::class,
+        NewsSeeder::class,
         SponsorsSeeder::class
     ];
 
