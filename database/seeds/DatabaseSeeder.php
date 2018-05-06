@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
         EventPagesSeeder::class,
         EventsSeeder::class,
         NewsSeeder::class,
+        BoardMembersSeeder::class,
         SponsorsSeeder::class
     ];
 
