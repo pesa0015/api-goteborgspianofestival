@@ -91,7 +91,7 @@ class ApplicantsTest extends TestCase
             'type' => Applicant::YOUNG,
         ];
 
-        $response = $this->post('/applications', $payload)->dump();
+        $response = $this->post('/applications', $payload);
 
         $this->assertNotEmpty(Applicant::all());
         $this->assertNotEmpty(Detail::all());
