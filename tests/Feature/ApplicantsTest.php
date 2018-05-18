@@ -46,7 +46,7 @@ class ApplicantsTest extends TestCase
             'teacherName' => 'test',
             'teacherMobileNumber' => '01234567',
             'participateMasterclass' => 1,
-            'participateConsert' => 0,
+            'participateConcert' => 0,
             'type' => Applicant::ADULT,
         ];
 
