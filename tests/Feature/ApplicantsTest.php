@@ -103,4 +103,42 @@ class ApplicantsTest extends TestCase
 
         $this->assertEmpty($response->getData());
     }
+
+    /**
+     * @group postApplicant
+     *
+     */
+    public function testPostApplicantVolunteer()
+    {
+        Mail::fake();
+        
+        $this->assertEmpty(Applicant::all());
+        $this->assertEmpty(Detail::all());
+
+        $payload = [
+            'name'  => 'Test',
+            'age'   => 16,
+            'address' => 'Teststreet',
+            'email' => 'test@example.com',
+            'mobileNumber' => '01234567',
+            'job/study' => 'test',
+            'aboutMe' => 'test',
+            'driverLicense' => 0,
+            'shareRoom' => 0,
+            'availability' => 'Test',
+            'type' => Applicant::VOLUNTEER,
+        ];
+
+        $response = $this->post('/applications', $payload);
+
+        $this->assertNotEmpty(Applicant::all());
+        $this->assertNotEmpty(Detail::all());
+
+        $response->assertStatus(200);
+        
+        Mail::assertSent(\App\Mail\ApplicantVolunteer::class, 1);
+        Mail::assertSent(\App\Mail\ApplicantVolunteerCopy::class, 1);
+
+        $this->assertEmpty($response->getData());
+    }
 }
