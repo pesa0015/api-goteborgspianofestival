@@ -30,7 +30,7 @@ class Applicant extends Model
         foreach ($attributes as $attribute => $value) {
             $field = snake_case($attribute);
             if (in_array($field, $this->getFillable())) {
-                $this->$field = $value;
+                $this->$field = snake_case($value);
                 continue;
             }
 
