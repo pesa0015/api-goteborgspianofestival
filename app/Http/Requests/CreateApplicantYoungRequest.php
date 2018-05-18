@@ -32,7 +32,7 @@ class CreateApplicantYoungRequest extends FormRequest
             'teacherName'            => 'required|string',
             'teacherMobileNumber'    => 'required|string',
             'participateMasterclass' => 'required|boolean',
-            'participateConsert'     => 'required|boolean',
+            'participateConcert'     => 'required|boolean',
             'playSolo'               => 'required|boolean',
             'playChamberMusic'       => 'required|boolean',
             'toPlayOnMasterClass'    => 'nullable|string',
