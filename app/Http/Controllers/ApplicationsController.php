@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use App\Applicant;
 
 class ApplicationsController extends Controller
@@ -32,7 +33,26 @@ class ApplicationsController extends Controller
 
         $request->validate($rules[$request->type]->rules());
 
+        $mail = [
+            Applicant::ADULT => [
+                'message' => \App\Mail\ApplicantAdult::class,
+                'copy'    => \App\Mail\ApplicantAdultCopy::class
+            ],
+            Applicant::YOUNG => [
+                'message' => \App\Mail\ApplicantYoung::class,
+                'copy'    => \App\Mail\ApplicantYoungCopy::class
+            ],
+            Applicant::VOLUNTEER => [
+                'message' => \App\Mail\ApplicantVolunteer::class,
+                'copy'    => \App\Mail\ApplicantVolunteerCopy::class
+            ]
+        ];
+
         $this->applicant->populate($request->all())->type($request->type)->save();
+
+        Mail::to(env('MAIL_TO'))->send(new $mail[$request->type]['message']($request));
+
+        Mail::to($request->email)->send(new $mail[$request->type]['copy']($request));
 
         return response()->json([], 200);
     }

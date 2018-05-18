@@ -3,6 +3,7 @@
 namespace Tests\Feature;
 
 use Tests\TestCase;
+use Illuminate\Support\Facades\Mail;
 use App\Applicant;
 use App\Detail;
 
@@ -35,6 +36,8 @@ class ApplicantsTest extends TestCase
      */
     public function testPostApplicant()
     {
+        Mail::fake();
+        
         $this->assertEmpty(Applicant::all());
         $this->assertEmpty(Detail::all());
 
@@ -57,6 +60,9 @@ class ApplicantsTest extends TestCase
 
         $response->assertStatus(200);
         
+        Mail::assertSent(\App\Mail\ApplicantAdult::class, 1);
+        Mail::assertSent(\App\Mail\ApplicantAdultCopy::class, 1);
+
         $this->assertEmpty($response->getData());
     }
 }
