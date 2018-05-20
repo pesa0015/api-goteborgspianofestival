@@ -20,3 +20,6 @@ Route::resource('boardmembers', 'BoardMembersController', ['only' => ['index']])
 
 // Applications
 Route::resource('applications', 'ApplicationsController', ['only' => ['store']]);
+
+// Contact
+Route::post('contact', 'ContactsController@contactUs');
