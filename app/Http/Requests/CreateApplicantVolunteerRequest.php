@@ -2,9 +2,7 @@
 
 namespace App\Http\Requests;
 
-use Illuminate\Foundation\Http\FormRequest;
-
-class CreateApplicantVolunteerRequest extends FormRequest
+class CreateApplicantVolunteerRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
