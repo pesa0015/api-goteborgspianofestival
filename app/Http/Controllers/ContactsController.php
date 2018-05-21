@@ -17,4 +17,13 @@ class ContactsController extends Controller
 
         return response()->json([], 200);
     }
+
+    public function beMember(\App\Http\Requests\ContactsRequest $request)
+    {
+        Mail::to(env('MAIL_TO'))->send(new \App\Mail\Member($request));
+
+        Mail::to($request->email)->send(new \App\Mail\MemberCopy($request));
+
+        return response()->json([], 200);
+    }
 }
