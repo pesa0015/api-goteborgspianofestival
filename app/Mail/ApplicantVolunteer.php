@@ -27,7 +27,7 @@ class ApplicantVolunteer extends Mailable
     public function build()
     {
         return $this->subject('Anmälan volontär')
-            ->from('peters945@hotmail.com')
+            ->from(env('MAIL_FROM'))
             ->markdown('applicants.volunteer.mail', ['applicant' => $this->request->all()]);
     }
 }

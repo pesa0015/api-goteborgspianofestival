@@ -27,7 +27,7 @@ class ApplicantYoung extends Mailable
     public function build()
     {
         return $this->subject('Anmälan Barn och unga')
-            ->from('peters945@hotmail.com')
+            ->from(env('MAIL_FROM'))
             ->markdown('applicants.young.mail', ['applicant' => $this->request->all()]);
     }
 }

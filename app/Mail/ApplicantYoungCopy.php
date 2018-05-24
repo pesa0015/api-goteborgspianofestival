@@ -27,7 +27,7 @@ class ApplicantYoungCopy extends Mailable
     public function build()
     {
         return $this->subject('Tack för din ansökan')
-            ->from('peters945@hotmail.com')
+            ->from(env('MAIL_FROM'))
             ->markdown('applicants.young.copy', ['applicant' => $this->request->all()]);
     }
 }

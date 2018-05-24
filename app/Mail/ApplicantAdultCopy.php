@@ -27,7 +27,7 @@ class ApplicantAdultCopy extends Mailable
     public function build()
     {
         return $this->subject('Tack för din ansökan')
-            ->from('peters945@hotmail.com')
+            ->from(env('MAIL_FROM'))
             ->markdown('applicants.adult.copy', ['applicant' => $this->request->all()]);
     }
 }

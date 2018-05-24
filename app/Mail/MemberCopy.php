@@ -27,7 +27,7 @@ class MemberCopy extends Mailable
     public function build()
     {
         return $this->subject('Ansökan om medlemskap')
-            ->from('peters945@hotmail.com')
+            ->from(env('MAIL_FROM'))
             ->markdown('member.copy', ['member' => $this->request->all()]);
     }
 }
