@@ -28,6 +28,6 @@ class ApplicantVolunteer extends Mailable
     {
         return $this->subject('Anmälan volontär')
             ->from('peters945@hotmail.com')
-            ->markdown('applicants.volunteer', ['applicant' => $this->request->all()]);
+            ->markdown('applicants.volunteer.mail', ['applicant' => $this->request->all()]);
     }
 }
