@@ -26,7 +26,7 @@ class ContactCopy extends Mailable
      */
     public function build()
     {
-        return $this->subject('Tack för din ansökan')
+        return $this->subject('Tack för ditt meddelande')
             ->from('peters945@hotmail.com')
             ->markdown('contact.copy', ['contact' => $this->request->all()]);
     }

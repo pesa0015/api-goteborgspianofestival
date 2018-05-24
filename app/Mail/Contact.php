@@ -26,7 +26,7 @@ class Contact extends Mailable
      */
     public function build()
     {
-        return $this->subject('Tack för din ansökan')
+        return $this->subject($this->request->subject)
             ->from('peters945@hotmail.com')
             ->markdown('contact.mail', ['contact' => $this->request->all()]);
     }

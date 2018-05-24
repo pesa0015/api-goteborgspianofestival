@@ -26,7 +26,7 @@ class Member extends Mailable
      */
     public function build()
     {
-        return $this->subject('Tack för din ansökan')
+        return $this->subject('Stödmedlem')
             ->from('peters945@hotmail.com')
             ->markdown('member.mail', ['member' => $this->request->all()]);
     }
