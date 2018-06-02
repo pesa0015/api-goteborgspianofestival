@@ -27,7 +27,7 @@
         <span>Har du körkort? {{ $applicant['driverLicense'] ? 'Ja' : 'Nej' }}</span>
         <br />
         <br />
-        <span>Uppehälle/boende till deltagare: {{ $applicant['shareRoom'] ? 'Ja' : 'Nej' }}</span>
+        <span>Uppehälle/boende till deltagare: {{ $applicant['offerRoom'] ? 'Ja' : 'Nej' }}</span>
         <br />
         <br />
         <span>Vilka dagar/timmar kan du?</span>

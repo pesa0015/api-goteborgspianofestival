@@ -30,7 +30,7 @@ class CreateApplicantVolunteerRequest extends Request
             'job/study'     => 'nullable|string',
             'aboutMe'       => 'required|string',
             'driverLicense' => 'required|boolean',
-            'shareRoom'     => 'required|boolean',
+            'offerRoom'     => 'required|boolean',
             'availability'  => 'required|string',
         ];
     }

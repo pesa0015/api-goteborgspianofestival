@@ -124,7 +124,7 @@ class ApplicantsTest extends TestCase
             'job/study' => 'test',
             'aboutMe' => 'test',
             'driverLicense' => 0,
-            'shareRoom' => 0,
+            'offerRoom' => 0,
             'availability' => 'Test',
             'type' => Applicant::VOLUNTEER,
         ];
