@@ -25,6 +25,9 @@ class NewsSeeder extends DatabaseSeeder
                 'banner' => isset($newsItem->banner) ? $newsItem->banner : null,
                 'post'   => $newsItem->post->sv,
             ]);
+            
+            $seededNewsItem->created_at = $newsItem->createdAt;
+            $seededNewsItem->update();
 
             $this->translate($seededNewsItem, $newsItem);
         }
