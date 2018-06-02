@@ -24,5 +24,5 @@ Route::resource('applications', 'ApplicationsController', ['only' => ['store']])
 // Contact
 Route::post('contact', 'ContactsController@contactUs');
 
-// Membershop
+// Membership
 Route::post('member', 'ContactsController@beMember');
