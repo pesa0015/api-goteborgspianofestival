@@ -121,7 +121,7 @@ class ApplicantsTest extends TestCase
             'address' => 'Teststreet',
             'email' => 'test@example.com',
             'mobileNumber' => '01234567',
-            'job/study' => 'test',
+            'jobStudy' => 'test',
             'aboutMe' => 'test',
             'driverLicense' => 0,
             'offerRoom' => 0,

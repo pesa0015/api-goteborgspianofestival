@@ -21,7 +21,7 @@
         <span>E-post: {{ $applicant['email'] }}</span>
         <br />
         <br />
-        <span>Yrke/studier: {{ $applicant['job/study'] }}</span>
+        <span>Yrke/studier: {{ $applicant['jobStudy'] }}</span>
         <br />
         <br />
         <span>Har du körkort? {{ $applicant['driverLicense'] ? 'Ja' : 'Nej' }}</span>

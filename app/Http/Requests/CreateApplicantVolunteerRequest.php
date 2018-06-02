@@ -27,7 +27,7 @@ class CreateApplicantVolunteerRequest extends Request
             'address'       => 'required|string',
             'email'         => 'required|email',
             'mobileNumber'  => 'required|string',
-            'job/study'     => 'nullable|string',
+            'jobStudy'      => 'nullable|string',
             'aboutMe'       => 'required|string',
             'driverLicense' => 'required|boolean',
             'offerRoom'     => 'required|boolean',
