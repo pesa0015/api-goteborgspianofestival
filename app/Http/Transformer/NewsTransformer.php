@@ -4,6 +4,7 @@ namespace App\Http\Transformer;
 
 use League\Fractal;
 use App\News;
+use Carbon\Carbon;
 
 class NewsTransformer extends Fractal\TransformerAbstract
 {
@@ -14,6 +15,8 @@ class NewsTransformer extends Fractal\TransformerAbstract
             'slug'   => $news->slug,
             'banner' => $news->banner,
             'post'   => $news->t('post'),
+            'createdAt' => Carbon::parse($news->created_at)->format('d M, Y'),
+            'updatedAt' => Carbon::parse($news->updated_at)->format('d M, Y'),
         ];
     }
 }

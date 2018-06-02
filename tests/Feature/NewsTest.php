@@ -45,6 +45,8 @@ class NewsTest extends TestCase
                 'slug',
                 'banner',
                 'post',
+                'createdAt',
+                'updatedAt',
             ]
         ]);
     }
