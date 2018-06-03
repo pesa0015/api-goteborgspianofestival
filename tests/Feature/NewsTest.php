@@ -30,6 +30,9 @@ class NewsTest extends TestCase
             'title' => 'Bästa Musik-vänner och alla intresserade!'
         ]);
 
+        // Assert month in timestamp is translated
+        $this->assertContains('Januari', $response->getData()[0]->createdAt);
+
         $response = $this->call('GET', '/news', [], [], [], ['HTTP_LOCALE' => 'en']);
 
         $response->assertStatus(200);
@@ -38,6 +41,9 @@ class NewsTest extends TestCase
         $response->assertJsonFragment([
             'title' => 'Greetings & welcome to our music festival!'
         ]);
+
+        // Assert month in timestamp is translated
+        $this->assertContains('January', $response->getData()[0]->createdAt);
 
         $response->assertJsonStructure([
             '*' => [

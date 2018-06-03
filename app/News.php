@@ -32,4 +32,14 @@ class News extends BaseModel
     {
         return self::where('visible', true);
     }
+
+    public function translateMonthInDate($field)
+    {
+        $date = \Carbon\Carbon::parse($this->$field);
+
+        $month = $date->format('F');
+        $translatedMonth = trans('months.' . $month);
+
+        return str_replace($month, $translatedMonth, $date->format('j F, Y'));
+    }
 }
