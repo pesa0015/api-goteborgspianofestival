@@ -1,0 +1,36 @@
+[
+    {
+        "start": "17:00",
+        "end": "18:00",
+        "name": {
+            "sv": "Workshop Dans med Svenska Balettskolan",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Workshop Dans med Svenska Balettskolan"
+                    },
+                    {
+                        "sv": "Workshop Dans med Svenska Balettskolan"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "Svenska Balettskolans elever visar och lär ut några danser. Vid pianot Simon Konkoli och Anna-Maria Pusztai.",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Svenska Balettskolans elever visar och lär ut några danser. Vid pianot Simon Konkoli och Anna-Maria Pusztai."
+                    },
+                    {
+                        "sv": "Svenska Balettskolans elever visar och lär ut några danser. Vid pianot Simon Konkoli och Anna-Maria Pusztai."
+                    }
+                ]
+            }
+        },
+        "eventpage": null,
+        "pianist": null,
+        "location": "Dicksonska palatset",
+        "room": null
+    }
+]

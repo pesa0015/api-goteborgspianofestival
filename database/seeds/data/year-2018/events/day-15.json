@@ -1,0 +1,160 @@
+[
+    {
+        "start": "09:30",
+        "end": "12:30",
+        "name": {
+            "sv": "Mästarklass",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Masterclass"
+                    },
+                    {
+                        "sv": "Mästarklass"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Maurizio Moretti",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Maurizio Moretti"
+                    },
+                    {
+                        "sv": "med Maurizio Moretti"
+                    }
+                ]
+            }
+        },
+        "eventpage": "mastarklasser",
+        "pianist": "maurizio-moretti",
+        "location": "Göteborgs konserthus",
+        "room": "Stenhammarsalen"
+    },
+    {
+        "start": "09:30",
+        "end": "12:30",
+        "name": {
+            "sv": "Mästarklass",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Masterclass"
+                    },
+                    {
+                        "sv": "Mästarklass"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Daniel Klanger",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Daniel Klanger"
+                    },
+                    {
+                        "sv": "med Daniel Klanger"
+                    }
+                ]
+            }
+        },
+        "eventpage": "mastarklasser",
+        "pianist": "daniel-klanger",
+        "location": "Göteborgs konserthus",
+        "room": "Viktor Rydbergssalen"
+    },
+    {
+        "start": "13:30",
+        "end": "17:00",
+        "name": "Mästarklass",
+        "description": {
+            "sv": "med Maurizio Moretti",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Maurizio Moretti"
+                    },
+                    {
+                        "sv": "med Maurizio Moretti"
+                    }
+                ]
+            }
+        },
+        "eventpage": "mastarklasser",
+        "pianist": "maurizio-moretti",
+        "location": "Göteborgs konserthus",
+        "room": "Viktor Rydbergssalen"
+    },
+    {
+        "start": "13:30",
+        "end": "17:00",
+        "name": {
+            "sv": "Mästarklass",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Masterclass"
+                    },
+                    {
+                        "sv": "Mästarklass"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Daniel Klanger",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Daniel Klanger"
+                    },
+                    {
+                        "sv": "med Daniel Klanger"
+                    }
+                ]
+            }
+        },
+        "eventpage": "mastarklasser",
+        "pianist": "daniel-klanger",
+        "location": "Göteborgs konserthus",
+        "room": "Stenhammarsalen"
+    },
+    {
+        "start": "17:00",
+        "end": "19:00",
+        "name": {
+            "sv": "Öppet hus",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Öppet hus"
+                    },
+                    {
+                        "sv": "Öppet hus"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "Unga pianister spelar på flygeln",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Unga pianister spelar på flygeln"
+                    },
+                    {
+                        "sv": "Unga pianister spelar på flygeln"
+                    }
+                ]
+            }
+        },
+        "eventpage": null,
+        "pianist": null,
+        "location": "Dicksonska palatset",
+        "room": null
+    }
+]

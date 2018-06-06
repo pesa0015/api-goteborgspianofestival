@@ -1,0 +1,46 @@
+{
+    "title": {
+        "sv": "Lunchkonsert Debussy 100 år",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Lunchkonsert Debussy 100 år"
+                },
+                {
+                    "en": "Lunchconcert Debussy 100 years"
+                }
+            ]
+        }
+    },
+    "description": {
+        "sv": "Programinnehåll:<br /><br />Debussy Ariettes Oublies<br />Pernilla Ingvarsdotter & Ha-Young Sul<br /><br />Preludes book I : Voiles - Serenade interrompue<br />Maurizio Moretti<br /><br />Clair de Lune<br />Ha-Young Sul<br /><br />Debussy cello sonat<br />Antonio Hallongren & Thomas Rudberg<br /><br />Debussy Petite Suite & Six épigraphes antiques<br />Maurizio Moretti & Ha-Young Sul",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Programinnehåll:<br /><br />Debussy Ariettes Oublies<br />Pernilla Ingvarsdotter & Ha-Young Sul<br /><br />Preludes book I : Voiles - Serenade interrompue<br />Maurizio Moretti<br /><br />Clair de Lune<br />Ha-Young Sul<br /><br />Debussy cello sonat<br />Antonio Hallongren & Thomas Rudberg<br /><br />Debussy Petite Suite & Six épigraphes antiques<br />Maurizio Moretti & Ha-Young Sul"
+                },
+                {
+                    "en": "Programinnehåll:<br /><br />Debussy Ariettes Oublies<br />Pernilla Ingvarsdotter & Ha-Young Sul<br /><br />Preludes book I : Voiles - Serenade interrompue<br />Maurizio Moretti<br /><br />Clair de Lune<br />Ha-Young Sul<br /><br />Debussy cello sonat<br />Antonio Hallongren & Thomas Rudberg<br /><br />Debussy Petite Suite & Six épigraphes antiques<br />Maurizio Moretti & Ha-Young Sul"
+                }
+            ]
+        }
+    },
+    "slug": "lunchkonsert-debussy-100-ar",
+    "pianists": [
+        {
+            "slug": "pernilla-ingvarsdotter"
+        },
+        {
+            "slug": "ha-young-sul"
+        },
+        {
+            "slug": "maurizio-moretti"
+        },
+        {
+            "slug": "antonio-hallongren"
+        },
+        {
+            "slug": "thomas-rudberg"
+        }
+    ]
+}

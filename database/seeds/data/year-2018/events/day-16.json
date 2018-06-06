@@ -1,0 +1,273 @@
+[
+    {
+        "start": "09:30",
+        "end": "12:30",
+        "name": {
+            "sv": "Mästarklass",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Masterclass"
+                    },
+                    {
+                        "sv": "Mästarklass"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Per Tengstrand",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Per Tengstrand"
+                    },
+                    {
+                        "sv": "med Per Tengstrand"
+                    }
+                ]
+            }
+        },
+        "eventpage": "mastarklasser",
+        "pianist": "per-tengstrand",
+        "location": "Göteborgs konserthus",
+        "room": "Stenhammarsalen"
+    },
+    {
+        "start": "09:30",
+        "end": "12:30",
+        "name": {
+            "sv": "Mästarklass",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Masterclass"
+                    },
+                    {
+                        "sv": "Mästarklass"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Katarina Harg-Ström",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Katarina Harg-Ström"
+                    },
+                    {
+                        "sv": "med Katarina Harg-Ström"
+                    }
+                ]
+            }
+        },
+        "eventpage": "mastarklasser",
+        "pianist": "katarina-harg-strom",
+        "location": "Göteborgs konserthus",
+        "room": "Viktor Rydbergssalen"
+    },
+    {
+        "start": "13:00",
+        "end": "14:00",
+        "name": {
+            "sv": "Lunchkonsert Debussy 100 år",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Lunchconcert Debussy 100 years"
+                    },
+                    {
+                        "sv": "Lunchkonsert Debussy 100 år"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "Programinnehåll:<br /><br />Debussy Ariettes Oublies<br />Pernilla Ingvarsdotter & Ha-Young Sul<br /><br />Preludes book I : Voiles - Serenade interrompue<br />Maurizio Moretti<br /><br />Clair de Lune<br />Ha-Young Sul<br /><br />Debussy cello sonat<br />Antonio Hallongren & Thomas Rudberg<br /><br />Debussy Petite Suite & Six épigraphes antiques<br />Maurizio Moretti & Ha-Young Sul",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Programinnehåll:<br /><br />Debussy Ariettes Oublies<br />Pernilla Ingvarsdotter & Ha-Young Sul<br /><br />Preludes book I : Voiles - Serenade interrompue<br />Maurizio Moretti<br /><br />Clair de Lune<br />Ha-Young Sul<br /><br />Debussy cello sonat<br />Antonio Hallongren & Thomas Rudberg<br /><br />Debussy Petite Suite & Six épigraphes antiques<br />Maurizio Moretti & Ha-Young Sul"
+                    },
+                    {
+                        "sv": "Programinnehåll:<br /><br />Debussy Ariettes Oublies<br />Pernilla Ingvarsdotter & Ha-Young Sul<br /><br />Preludes book I : Voiles - Serenade interrompue<br />Maurizio Moretti<br /><br />Clair de Lune<br />Ha-Young Sul<br /><br />Debussy cello sonat<br />Antonio Hallongren & Thomas Rudberg<br /><br />Debussy Petite Suite & Six épigraphes antiques<br />Maurizio Moretti & Ha-Young Sul"
+                    }
+                ]
+            }
+        },
+        "eventpage": "lunchkonsert-debussy-100-ar",
+        "location": "Göteborgs konserthus",
+        "room": "Stenhammarsalen"
+    },
+    {
+        "start": "14:15",
+        "end": "15:00",
+        "name": {
+            "sv": "Samtal och Eftermiddagskonsert",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Samtal och Eftermiddagskonsert"
+                    },
+                    {
+                        "sv": "Samtal och Eftermiddagskonsert"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Per Tengstrand",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "med Per Tengstrand"
+                    },
+                    {
+                        "sv": "med Per Tengstrand"
+                    }
+                ]
+            }
+        },
+        "eventpage": "mastarklasser",
+        "pianist": "per-tengstrand",
+        "location": "Göteborgs konserthus",
+        "room": "Stenhammarsalen"
+    },
+    {
+        "start": "15:30",
+        "end": "17:00",
+        "name": {
+            "sv": "Mästarklass",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Masterclass"
+                    },
+                    {
+                        "sv": "Mästarklass"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Per Tengstrand",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Per Tengstrand"
+                    },
+                    {
+                        "sv": "med Per Tengstrand"
+                    }
+                ]
+            }
+        },
+        "eventpage": "mastarklasser",
+        "pianist": "per-tengstrand",
+        "location": "Göteborgs konserthus",
+        "room": "Stenhammarsalen"
+    },
+    {
+        "start": "14:00",
+        "end": "17:00",
+        "name": {
+            "sv": "Mästarklass",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Masterclass"
+                    },
+                    {
+                        "sv": "Mästarklass"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "med Katarina Harg-Ström",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "with Katarina Harg-Ström"
+                    },
+                    {
+                        "sv": "med Katarina Harg-Ström"
+                    }
+                ]
+            }
+        },
+        "eventpage": "mastarklasser",
+        "pianist": "katarina-harg-strom",
+        "location": "Göteborgs konserthus",
+        "room": "Viktor Rydbergssalen"
+    },
+    {
+        "start": "16:45",
+        "end": "17:15",
+        "name": {
+            "sv": "Föreläsning om Smetana med Gustaf Edlund",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Föreläsning om Smetana med Gustaf Edlund"
+                    },
+                    {
+                        "sv": "Föreläsning om Smetana med Gustaf Edlund"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "I samband med den fina utställningen om Smetana vill vi lyfta fram denna tonsättare och vi får möjlighet att lyssna till musiken framförd av Terje Skomedal (violinist från GSO), Antonio Hallongren, cellist och pianisterna Thomas Rudberg och Ha-Young Sul, initiativtagaren för Göteborgs Pianofestival.",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "I samband med den fina utställningen om Smetana vill vi lyfta fram denna tonsättare och vi får möjlighet att lyssna till musiken framförd av Terje Skomedal (violinist från GSO), Antonio Hallongren, cellist och pianisterna Thomas Rudberg och Ha-Young Sul, initiativtagaren för Göteborgs Pianofestival."
+                    },
+                    {
+                        "sv": "I samband med den fina utställningen om Smetana vill vi lyfta fram denna tonsättare och vi får möjlighet att lyssna till musiken framförd av Terje Skomedal (violinist från GSO), Antonio Hallongren, cellist och pianisterna Thomas Rudberg och Ha-Young Sul, initiativtagaren för Göteborgs Pianofestival."
+                    }
+                ]
+            }
+        },
+        "eventpage": null,
+        "pianist": null,
+        "location": "Dicksonska palatset",
+        "room": null
+    },
+    {
+        "start": "17:15",
+        "end": "18:15",
+        "name": {
+            "sv": "Kammarmusikkonsert",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Kammarmusikkonsert"
+                    },
+                    {
+                        "sv": "Kammarmusikkonsert"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "Musik av B. Smetana<br /><br />Terje Skomedal, violin<br />Antonio Hallongren, cello<br />Thomas Rudberg och Ha-Young Sul, pianister",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Musik av B. Smetana<br /><br />Terje Skomedal, violin<br />Antonio Hallongren, cello<br />Thomas Rudberg och Ha-Young Sul, pianister"
+                    },
+                    {
+                        "sv": "Musik av B. Smetana<br /><br />Terje Skomedal, violin<br />Antonio Hallongren, cello<br />Thomas Rudberg och Ha-Young Sul, pianister"
+                    }
+                ]
+            }
+        },
+        "eventpage": null,
+        "pianist": null,
+        "location": "Dicksonska palatset",
+        "room": null
+    }
+]

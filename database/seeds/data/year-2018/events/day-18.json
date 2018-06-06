@@ -1,0 +1,36 @@
+[
+    {
+        "start": "15:00",
+        "end": "17:00",
+        "name": {
+            "sv": "Öppet hus Barn och unga",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Öppet hus Barn och unga"
+                    },
+                    {
+                        "sv": "Öppet hus Barn och unga"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "Unga pianister spelar på flygeln",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Unga pianister spelar på flygeln"
+                    },
+                    {
+                        "sv": "Unga pianister spelar på flygeln"
+                    }
+                ]
+            }
+        },
+        "eventpage": null,
+        "pianist": null,
+        "location": "Dicksonska palatset",
+        "room": null
+    }
+]

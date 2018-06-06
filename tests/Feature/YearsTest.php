@@ -43,6 +43,18 @@ class YearsTest extends TestCase
                 ]
             ]
         ]);
+
+        $response->assertJsonFragment([
+            'year' => '2016'
+        ]);
+
+        $response->assertJsonFragment([
+            'year' => '2017'
+        ]);
+
+        $response->assertJsonFragment([
+            'year' => '2018'
+        ]);
     }
 
     /**

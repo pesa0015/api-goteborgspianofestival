@@ -1,0 +1,70 @@
+[
+    {
+        "start": "14:00",
+        "end": "14:45",
+        "name": {
+            "sv": "Familjeföreställning",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Familjeföreställning"
+                    },
+                    {
+                        "sv": "Familjeföreställning"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "Hans och Gretas Operaäventyr<br /><br />Opera på lekfullt sätt!<br /><br />Artister: Ensemble Hans och Greta och konsertpianist Ha-Young Sul<br /><br />En fartfylld familjeföreställning som öppnar dörren till Operans Magiska Värld! Musiken är hämtad från Trollflöjten, Madame Butterfly, Hoffmans äventyr och förstås, operan Hans och Greta. Allt är sammanbundet med en nyskriven svensk spännande handling. I slutet får alla vara med och sjunga och dansa. Ges under Kulturkalaset på Lilla Scenen med Ensemble Hans och Greta i samarbete med Göteborgs Pianofestival.",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Hans och Gretas Operaäventyr<br /><br />Opera på lekfullt sätt!<br /><br />Artister: Ensemble Hans och Greta och konsertpianist Ha-Young Sul<br /><br />En fartfylld familjeföreställning som öppnar dörren till Operans Magiska Värld! Musiken är hämtad från Trollflöjten, Madame Butterfly, Hoffmans äventyr och förstås, operan Hans och Greta. Allt är sammanbundet med en nyskriven svensk spännande handling. I slutet får alla vara med och sjunga och dansa. Ges under Kulturkalaset på Lilla Scenen med Ensemble Hans och Greta i samarbete med Göteborgs Pianofestival."
+                    },
+                    {
+                        "sv": "Hans och Gretas Operaäventyr<br /><br />Opera på lekfullt sätt!<br /><br />Artister: Ensemble Hans och Greta och konsertpianist Ha-Young Sul<br /><br />En fartfylld familjeföreställning som öppnar dörren till Operans Magiska Värld! Musiken är hämtad från Trollflöjten, Madame Butterfly, Hoffmans äventyr och förstås, operan Hans och Greta. Allt är sammanbundet med en nyskriven svensk spännande handling. I slutet får alla vara med och sjunga och dansa. Ges under Kulturkalaset på Lilla Scenen med Ensemble Hans och Greta i samarbete med Göteborgs Pianofestival."
+                    }
+                ]
+            }
+        },
+        "eventpage": null,
+        "pianist": null,
+        "location": "GöteborgsOperan",
+        "room": "Lilla scenen"
+    },
+    {
+        "start": "15:00",
+        "end": "17:00",
+        "name": {
+            "sv": "Festivalkonsert",
+            "translations": {
+                "lang": [
+                    {
+                        "en": "Festivalconcert"
+                    },
+                    {
+                        "sv": "Festivalkonsert"
+                    }
+                ]
+            }
+        },
+        "description": {
+            "sv": "",
+            "translations": {
+                "lang": [
+                    {
+                        "en": ""
+                    },
+                    {
+                        "sv": ""
+                    }
+                ]
+            }
+        },
+        "eventpage": null,
+        "pianist": null,
+        "location": "GöteborgsOperan",
+        "room": "Foajén"
+    }
+]
