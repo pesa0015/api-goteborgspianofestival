@@ -32,6 +32,6 @@ class Year extends Model
 
     public static function activeYears()
     {
-        return self::where('active', true);
+        return self::where('active', true)->orderBy('id', 'DESC');
     }
 }
