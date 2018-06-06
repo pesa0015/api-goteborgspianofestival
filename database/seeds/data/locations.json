@@ -19,23 +19,29 @@
             },
             {
                 "year": "2017"
+            },
+            {
+                "year": "2018"
             }
         ]
     },
     {
         "name": "Göteborgs konserthus",
-        "img": "https://goteborgspianofestival.com/wp-content/themes/goteborgspianofestival/img/slider/varldskulturmuseet.png",
+        "img": "https://goteborgspianofestival.com/wp-content/themes/goteborgspianofestival/img/slider/gbg_konserthus.jpg",
         "show": true,
         "years": [
             {
                 "year": "2017"
+            },
+            {
+                "year": "2018"
             }
         ]
     },
     {
         "name": "Världskulturmuseet",
         "img": "https://goteborgspianofestival.com/wp-content/themes/goteborgspianofestival/img/slider/varldskulturmuseet.png",
-        "show": true,
+        "show": false,
         "years": [
             {
                 "year": "2016"
@@ -52,6 +58,16 @@
         "years": [
             {
                 "year": "2016"
+            }
+        ]
+    },
+    {
+        "name": "Dicksonska palatset",
+        "img": "https://goteborgspianofestival.com/wp-content/themes/goteborgspianofestival/img/slider/Dicksonska.jpg",
+        "show": true,
+        "years": [
+            {
+                "year": "2018"
             }
         ]
     }
