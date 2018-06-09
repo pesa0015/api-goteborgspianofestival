@@ -11,7 +11,9 @@ class LocationTransformer extends Fractal\TransformerAbstract
     {
         return [
             'name' => $location->name,
-            'img'  => $location->img
+            'img'  => $location->img,
+            'lat'  => $location->lat,
+            'lng'  => $location->lng,
         ];
     }
 }

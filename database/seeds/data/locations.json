@@ -3,6 +3,8 @@
         "name": "Artisten",
         "img": "https://goteborgspianofestival.com/wp-content/themes/goteborgspianofestival/img/slider/artisten.jpg",
         "show": false,
+        "lat": "57.696232",
+        "lng": "11.982852",
         "years": [
             {
                 "year": "2016"
@@ -13,6 +15,8 @@
         "name": "GöteborgsOperan",
         "img": "https://goteborgspianofestival.com/wp-content/themes/goteborgspianofestival/img/slider/GoteborgsOperan.png",
         "show": true,
+        "lat": "57.711111",
+        "lng": "11.964167",
         "years": [
             {
                 "year": "2016"
@@ -29,6 +33,8 @@
         "name": "Göteborgs konserthus",
         "img": "https://goteborgspianofestival.com/wp-content/themes/goteborgspianofestival/img/slider/gbg_konserthus.jpg",
         "show": true,
+        "lat": "57.697052",
+        "lng": "11.979301",
         "years": [
             {
                 "year": "2017"
@@ -42,6 +48,8 @@
         "name": "Världskulturmuseet",
         "img": "https://goteborgspianofestival.com/wp-content/themes/goteborgspianofestival/img/slider/varldskulturmuseet.png",
         "show": false,
+        "lat": "57.694603",
+        "lng": "11.989485",
         "years": [
             {
                 "year": "2016"
@@ -55,6 +63,8 @@
         "name": "Stora teatern",
         "img": null,
         "show": false,
+        "lat": "57.702245",
+        "lng": "11.971032",
         "years": [
             {
                 "year": "2016"
@@ -65,6 +75,8 @@
         "name": "Dicksonska palatset",
         "img": "https://goteborgspianofestival.com/wp-content/themes/goteborgspianofestival/img/slider/Dicksonska.jpg",
         "show": true,
+        "lat": "57.702844",
+        "lng": "11.974131",
         "years": [
             {
                 "year": "2018"

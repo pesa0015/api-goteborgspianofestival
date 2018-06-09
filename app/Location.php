@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Location extends Model
 {
     protected $fillable = [
-        'name', 'img', 'show'
+        'name', 'img', 'show', 'lat', 'lng'
     ];
 
     public function events()

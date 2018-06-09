@@ -75,7 +75,9 @@ class YearsTest extends TestCase
                 'data' => [
                     '*' => [
                         'name',
-                        'img'
+                        'img',
+                        'lat',
+                        'lng',
                     ]
                 ]
             ]
