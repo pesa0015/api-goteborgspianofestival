@@ -83,5 +83,11 @@ class YearsTest extends TestCase
             ]
         ]);
         $this->assertInternalType('int', $response->getData()->countdown);
+
+        $this->assertEquals(\App\LangLog::where('lang', 'sv')->count(), 1);
+
+        $response = $this->call('GET', '/years/current', [], [], [], ['HTTP_LOCALE' => 'en']);
+
+        $this->assertEquals(\App\LangLog::where('lang', 'en')->count(), 1);
     }
 }

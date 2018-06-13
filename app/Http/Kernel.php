@@ -21,6 +21,11 @@ class Kernel extends HttpKernel
         \App\Http\Middleware\TrustProxies::class,
     ];
 
+    protected $middlewarePriority = [
+        \App\Http\Middleware\Locale::class,
+        \App\Http\Middleware\LangLogger::class,
+    ];
+
     /**
      * The application's route middleware groups.
      *
@@ -36,7 +41,7 @@ class Kernel extends HttpKernel
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
-
+        'langLogger' => [\App\Http\Middleware\LangLogger::class],
         'api' => [
             'throttle:60,1',
             'bindings',
