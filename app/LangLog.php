@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class LangLog extends Model
 {
-    protected $fillable = ['lang'];
+    protected $fillable = ['lang', 'http_accept_lang'];
 }

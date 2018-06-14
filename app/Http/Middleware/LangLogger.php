@@ -16,7 +16,10 @@ class LangLogger
      */
     public function handle($request, Closure $next)
     {
-        LangLog::create(['lang' => \App::getLocale()]);
+        LangLog::create([
+            'lang' => \App::getLocale(),
+            'http_accept_lang' => substr($request->server('HTTP_ACCEPT_LANGUAGE'), 0, 2)
+        ]);
 
         return $next($request);
     }

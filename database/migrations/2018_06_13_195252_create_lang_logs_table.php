@@ -16,6 +16,7 @@ class CreateLangLogsTable extends Migration
         Schema::create('lang_logs', function (Blueprint $table) {
             $table->increments('id');
             $table->string('lang');
+            $table->string('http_accept_lang');
             $table->timestamps();
         });
     }
