@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Transformer\BoardMembers;
+namespace App\Http\Transformer;
 
 use League\Fractal;
 use App\BoardMember;
 
-class LeadersTransformer extends Fractal\TransformerAbstract
+class BoardMembersTransformer extends Fractal\TransformerAbstract
 {
     public function transform(BoardMember $member)
     {

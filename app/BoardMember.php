@@ -18,10 +18,8 @@ class BoardMember extends Model
         'name', 'role'
     ];
 
-    public static function getTransformer($name)
+    public static function getTransformer()
     {
-        $transformer = '\\App\Http\\Transformer\\BoardMembers\\' . $name . 'Transformer';
-
-        return new $transformer;
+        return new \App\Http\Transformer\BoardMembersTransformer;
     }
 }
