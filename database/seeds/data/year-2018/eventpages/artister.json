@@ -1,0 +1,70 @@
+{
+    "title": {
+        "sv": "Artister",
+        "translations": {
+            "lang": [
+                {
+                    "sv": "Artister"
+                },
+                {
+                    "en": "Artists"
+                }
+            ]
+        }
+    },
+    "description": {
+        "sv": "",
+        "translations": {
+            "lang": [
+                {
+                    "sv": ""
+                },
+                {
+                    "en": ""
+                }
+            ]
+        }
+    },
+    "slug": "artister",
+    "pianists": [
+        {
+            "slug": "katarina-harg-strom"
+        },
+        {
+            "slug": "daniel-klanger"
+        },
+        {
+            "slug": "per-tengstrand"
+        },
+        {
+            "slug": "maurizio-moretti"
+        },
+        {
+            "slug": "ha-young-sul"
+        },
+        {
+            "slug": "teres-lof"
+        },
+        {
+            "slug": "iiro-rantala"
+        },
+        {
+            "slug": "svenska-balettskolan"
+        },
+        {
+            "slug": "ensemble-hans-och-greta"
+        },
+        {
+            "slug": "opera-spirits"
+        },
+        {
+            "slug": "terje-skomedal"
+        },
+        {
+            "slug": "antonio-hallongren"
+        },
+        {
+            "slug": "thomas-rudberg"
+        }
+    ]
+}
