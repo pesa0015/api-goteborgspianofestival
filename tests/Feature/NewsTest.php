@@ -5,6 +5,7 @@ namespace Tests\Feature;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use App\News;
+use Carbon\Carbon;
 
 class NewsTest extends TestCase
 {
@@ -30,8 +31,15 @@ class NewsTest extends TestCase
             'title' => 'Bästa Musik-vänner och alla intresserade!'
         ]);
 
+        $newsItemCreatedInJanuary = News::where('created_at', 'LIKE', '%-01-%')->first();
+
+        $day  = Carbon::parse($newsItemCreatedInJanuary->created_at)->format('d');
+        $year = Carbon::parse($newsItemCreatedInJanuary->created_at)->format('Y');
+
         // Assert month in timestamp is translated
-        $this->assertContains('Januari', $response->getData()[0]->createdAt);
+        $response->assertJsonFragment([
+            'createdAt' => $day . ' Januari, ' . $year
+        ]);
 
         $response = $this->call('GET', '/news', [], [], [], ['HTTP_LOCALE' => 'en']);
 
@@ -43,7 +51,9 @@ class NewsTest extends TestCase
         ]);
 
         // Assert month in timestamp is translated
-        $this->assertContains('January', $response->getData()[0]->createdAt);
+        $response->assertJsonFragment([
+            'createdAt' => $day . ' January, ' . $year
+        ]);
 
         $response->assertJsonStructure([
             '*' => [
