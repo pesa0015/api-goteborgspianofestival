@@ -87,5 +87,34 @@
             }
         },
         "createdAt": "2018-01-24"
+    },
+    {
+        "title": {
+            "sv": "Välkommen till årets pianofestival!",
+            "translations": {
+                "lang": [
+                    {
+                        "sv": "Välkommen till årets pianofestival!"
+                    },
+                    {
+                        "en": "Welcome to this year's piano festival!"
+                    }
+                ]
+            }
+        },
+        "post": {
+            "sv": "<iframe src=\"https://www.youtube.com/embed/st910kVq6UQ\" width=\"700\" height=\"350\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>",
+            "translations": {
+                "lang": [
+                    {
+                        "sv": "<iframe src=\"https://www.youtube.com/embed/st910kVq6UQ\" width=\"700\" height=\"350\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
+                    },
+                    {
+                        "en": "<iframe src=\"https://www.youtube.com/embed/st910kVq6UQ\" width=\"700\" height=\"350\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
+                    }
+                ]
+            }
+        },
+        "createdAt": "2018-07-30"
     }
 ]
