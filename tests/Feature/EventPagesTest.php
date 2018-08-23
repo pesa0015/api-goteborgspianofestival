@@ -78,5 +78,7 @@ class EventPagesTest extends TestCase
                 ]
             ]
         ]);
+
+        $this->assertEquals($response->getData()->pianists->data[0]->name, \App\Pianist::where('priority', 1)->first()->name);
     }
 }
