@@ -50,20 +50,20 @@
             }
         },
         "description": {
-            "sv": "med Katarina Harg-Ström",
+            "sv": "med Katarina Ström-Harg",
             "translations": {
                 "lang": [
                     {
-                        "en": "with Katarina Harg-Ström"
+                        "en": "with Katarina Ström-Harg"
                     },
                     {
-                        "sv": "med Katarina Harg-Ström"
+                        "sv": "med Katarina Ström-Harg"
                     }
                 ]
             }
         },
         "eventpage": "mastarklasser",
-        "pianist": "katarina-harg-strom",
+        "pianist": "katarina-strom-harg",
         "location": "Göteborgs konserthus",
         "room": "Viktor Rydbergssalen"
     },
@@ -185,20 +185,20 @@
             }
         },
         "description": {
-            "sv": "med Katarina Harg-Ström",
+            "sv": "med Katarina Ström-Harg",
             "translations": {
                 "lang": [
                     {
-                        "en": "with Katarina Harg-Ström"
+                        "en": "with Katarina Ström-Harg"
                     },
                     {
-                        "sv": "med Katarina Harg-Ström"
+                        "sv": "med Katarina Ström-Harg"
                     }
                 ]
             }
         },
         "eventpage": "mastarklasser",
-        "pianist": "katarina-harg-strom",
+        "pianist": "katarina-strom-harg",
         "location": "Göteborgs konserthus",
         "room": "Viktor Rydbergssalen"
     },
