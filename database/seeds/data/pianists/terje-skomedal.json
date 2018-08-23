@@ -13,5 +13,6 @@
             ]
         }
     },
-    "img": "https://goteborgspianofestival.com/wp-content/uploads/2018/07/Terje-skomedal.jpg"
+    "img": "https://goteborgspianofestival.com/wp-content/uploads/2018/07/Terje-skomedal.jpg",
+    "priority": 5
 }

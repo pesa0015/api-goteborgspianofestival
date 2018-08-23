@@ -13,5 +13,6 @@
             ]
         }
     },
-    "img": "https://goteborgspianofestival.com/wp-content/uploads/2016/07/ha-young.jpg"
+    "img": "https://goteborgspianofestival.com/wp-content/uploads/2016/07/ha-young.jpg",
+    "priority": 1
 }

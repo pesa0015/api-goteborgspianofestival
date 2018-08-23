@@ -20,7 +20,8 @@ class PianistsSeeder extends DatabaseSeeder
                 'name' => $pianist->name,
                 'slug' => str_replace('.json', '', $file),
                 'bio'  => isset($pianist->bio->sv) ? $pianist->bio->sv : $pianist->bio,
-                'img'  => $pianist->img
+                'img'  => $pianist->img,
+                'priority' => isset($pianist->priority) ? $pianist->priority : 100
             ]);
 
             $this->translate($seededPianist, $pianist);

@@ -13,5 +13,6 @@
             ]
         }
     },
-    "img": "https://goteborgspianofestival.com/wp-content/uploads/2018/05/image1.jpeg"
+    "img": "https://goteborgspianofestival.com/wp-content/uploads/2018/05/image1.jpeg",
+    "priority": 12
 }

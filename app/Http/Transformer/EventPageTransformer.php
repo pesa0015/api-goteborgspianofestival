@@ -29,7 +29,7 @@ class EventPageTransformer extends Fractal\TransformerAbstract
      */
     public function includePianists(EventPage $eventPage)
     {
-        $pianists = $eventPage->pianists;
+        $pianists = $eventPage->pianists->sortBy('priority');
 
         return $this->collection($pianists, new PianistTransformer);
     }
